@@ -94,73 +94,73 @@
 			<policy id="policy_war_tax"/>
 		</default_policies>
 		<male_names>
-			<name name="{=ACDCA43D}Oleg"/>
+			<name name="{=ACDCA43D}Ivaylo"/>
 			<name name="{=F637C651}Ratimir"/>
 			<name name="{=0421B676}Velimir"/>
-			<name name="{=622C2410}Dawyd"/>
-			<name name="{=5FA63D63}Datsko"/>
-			<name name="{=C22FFD3E}Dmitri"/>
-			<name name="{=043C5954}Boryslav"/>
-			<name name="{=62398FCA}Jaromir"/>
+			<name name="{=622C2410}Shishman"/>
+			<name name="{=5FA63D63}Georgi"/>
+			<name name="{=C22FFD3E}Dimitar"/>
+			<name name="{=043C5954}Boril"/>
+			<name name="{=62398FCA}Desislav"/>
 			<name name="{=76E21A7E}Radovan"/>
 			<name name="{=A8A00175}Stanislav"/>
-			<name name="{=7D17290E}Artem"/>
-			<name name="{=A94E16A1}Izyaslav"/>
-			<name name="{=1B5C5C10}Mal"/>
-			<name name="{=936BBBEE}Oleksandr"/>
-			<name name="{=16D40F45}Mal"/>
-			<name name="{=8A86CE76}Vlastimil"/>
-			<name name="{=05154A7E}Dobromir"/>
-			<name name="{=71D4E2AD}Mykhail"/>
-			<name name="{=3150208B}Fedir"/>
-			<name name="{=2E0FE86F}Jaroslav"/>
-			<name name="{=E8E8B874}Borys"/>
-			<name name="{=2C2500CF}Bohdan"/>
-			<name name="{=E44F74D1}Faddei"/>
-			<name name="{=AC50599A}Ivan"/>
-			<name name="{=E44BBCCC}Stepan"/>
-			<name name="{=AD9E53CA}Sviatoslav"/>
-			<name name="{=F0CB3CF1}Andriy"/>
-			<name name="{=A1026723}Alexander"/>
-			<name name="{=159AB705}Ivan"/>
-			<name name="{=D8BD737A}Volodimir"/>
-			<name name="{=2E0BF3C0}Vasylko"/>
-			<name name="{=D253341B}Roman"/>
-			<name name="{=24B1A739}Lev"/>
-			<name name="{=F115CDE8}Danylo"/>
-			<name name="{=F5935F3B}Mstislav"/>
-			<name name="{=2449A475}Svarn"/>
-			<name name="{=7CC8D271}Bryachislav"/>
-			<name name="{=6552F180}Voloda"/>
+			<name name="{=7D17290E}Asen"/>
+			<name name="{=A94E16A1}Tihomir"/>
+			<name name="{=1B5C5C10}Aleksandar"/>
+			<name name="{=936BBBEE}Momchil"/>
+			<name name="{=16D40F45}Voisil"/>
+			<name name="{=8A86CE76}Dobromir"/>
+			<name name="{=05154A7E}Mihail"/>
+			<name name="{=71D4E2AD}Balik"/>
+			<name name="{=3150208B}Svetoslav"/>
+			<name name="{=2E0FE86F}Boris"/>
+			<name name="{=E8E8B874}Bogdan"/>
+			<name name="{=2C2500CF}Vladislav"/>
+			<name name="{=E44F74D1}Ivan"/>
+			<name name="{=AC50599A}Stepan"/>
+			<name name="{=E44BBCCC}Petar"/>
+			<name name="{=AD9E53CA}Simeon"/>
+			<name name="{=F0CB3CF1}Vladimir"/>
+			<name name="{=A1026723}Rostislav"/>
+			<name name="{=159AB705}Roman"/>
+			<name name="{=D8BD737A}Lev"/>
+			<name name="{=2E0BF3C0}Danail"/>
+			<name name="{=D253341B}Stefan"/>
+			<name name="{=24B1A739}Konstantin"/>
+			<name name="{=F115CDE8}Hriso"/>
+			<name name="{=F5935F3B}Petko"/>
+			<name name="{=2449A475}Radomir"/>
+			<name name="{=7CC8D271}Smilets"/>
+			<name name="{=6552F180}Eltimir"/>
 		</male_names>
 		<female_names>
-			<name name="{=C23A87A0}Daryna"/>
-			<name name="{=D48B9A29}Anastasiya"/>
-			<name name="{=8DB2707B}Bohdana"/>
-			<name name="{=A32152B9}Alina"/>
-			<name name="{=5AA87454}Daniela"/>
-			<name name="{=33EA630F}Dobrodeia"/>
-			<name name="{=FD3ED2C5}Dobroniega"/>
-			<name name="{=6B65DA2E}Iadvykha"/>
-			<name name="{=8AEC4E4E}Olenica"/>
-			<name name="{=D75E96FB}Polahia"/>
-			<name name="{=70A6BFB5}Zofeia"/>
-			<name name="{=FF8E2E7A}Zvenislava"/>
-			<name name="{=BE14E6D9}Wyola"/>
-			<name name="{=36C610BF}Stetsia"/>
-			<name name="{=9E7254A0}Poloneia"/>
-			<name name="{=16F7E6D1}Tomyla"/>
-			<name name="{=57297A76}Olena"/>
-			<name name="{=6A915DC6}Kalyna"/>
-			<name name="{=97D538AB}Kateryna"/>
-			<name name="{=7C2ECD17}Inna"/>
-			<name name="{=E09C7EC9}Ivanna"/>
-			<name name="{=8DEB72DE}Anichka"/>
-			<name name="{=87EFD099}Aleksandra"/>
-			<name name="{=7ACD3794}Anna"/>
-			<name name="{=D0D9C2B7}Ionna"/>
-			<name name="{=5A352BD0}Daryna"/>
-			<name name="{=3C90C755}Dina"/>
+			<name name="{=C23A87A0}Anastasiya"/>
+			<name name="{=D48B9A29}Daniela"/>
+			<name name="{=8DB2707B}Aleksandra"/>
+			<name name="{=A32152B9}Anna"/>
+			<name name="{=5AA87454}Ionna"/>
+			<name name="{=33EA630F}Dina"/>
+			<name name="{=FD3ED2C5}Maria"/>
+			<name name="{=6B65DA2E}Zlata"/>
+			<name name="{=8AEC4E4E}Desislava"/>
+			<name name="{=D75E96FB}Keratsa"/>
+			<name name="{=70A6BFB5}Teodora"/>
+			<name name="{=FF8E2E7A}Smiltsena"/>
+			<name name="{=BE14E6D9}Kumankata"/>
+			<name name="{=36C610BF}Kosara"/>
+			<name name="{=9E7254A0}Tamara"/>
+			<name name="{=16F7E6D1}Elena"/>
+			<name name="{=57297A76}Plestia"/>
+			<name name="{=6A915DC6}Evdokia"/>
+			<name name="{=97D538AB}Miroslava"/>
+			<name name="{=7C2ECD17}Radoslava"/>
+			<name name="{=E09C7EC9}Irina"/>
+			<name name="{=8DEB72DE}Kera"/>
+			<name name="{=87EFD099}Ana"/>
+			<name name="{=7ACD3794}Marta"/>
+			<name name="{=D0D9C2B7}Katarina"/>
+			<name name="{=5A352BD0}Boyana"/>
+			<name name="{=3C90C755}Militsa"/>
 			<name name="{=F61D34DD}Olena"/>
 			<name name="{=0E09DA4B}Oksana"/>
 			<name name="{=447E9F09}Maria"/>
@@ -174,12 +174,12 @@
 			<name name="{=A315D49F}Kalyna"/>
 		</female_names>
 		<clan_names>
-			<name name="{=Shishman}Shishman"/>
-			<name name="{=Sratsimir}Sratsimir"/>
+			<name name="{=Shishman}Shishmanovtsi"/>
+			<name name="{=Sratsimir}Sracimirovtsi"/>
 			<name name="{=Smilets}Smilets"/>
-			<name name="{=Ottoman}Ottoman"/>
-			<name name="{=Dobrotitsa}Dobrotitsa"/>
-			<name name="{=Momchil}Momchil"/>
+			<name name="{=Ottoman}Terterovtsi"/>
+			<name name="{=Dobrotitsa}Balikovtsi"/>
+			<name name="{=Momchil}Asenevtsi"/>
 		</clan_names>
 		<cultural_feats>
 			<feat id="khuzait_cheaper_recruits_mounted"/>

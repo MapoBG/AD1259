@@ -11,13 +11,13 @@
 	         culture="Culture.bulgaria"
 	         settlement_banner_mesh="encounter_flag_a"
 	         flag_mesh="info_screen_flags_a"
-	         name="{=bulgaria_kingdom_name}Kingdom of Bulgaria"
-	         short_name="{=bulgaria_kingdom_short_name}Bulgaria"
-	         title="{=bulgaria_kingdom_title}Kingdom of Bulgaria"
-	         ruler_title="{=bulgaria_ruler_title}King"
-	         text="{=bulgaria_kingdom_text}The Second Bulgarian Empire was established in 1185 following a successful rebellion against Byzantine rule. The second half of the 13th century was a period of considerable challenge, marked by internal strife, external threats from the Mongols, and complex diplomatic relations with neighboring powers. Despite these issues, the empire maintained its cultural and religious significance in the region.">
+	         name="{=bulgaria_kingdom_name}Bulgarian Tsardom"
+	         short_name="{=bulgaria_kingdom_short_name}Bulgarian Tsardom"
+	         title="{=bulgaria_kingdom_title}Bulgarian Tsardom"
+	         ruler_title="{=bulgaria_ruler_title}Tsar"
+	         text="{=bulgaria_kingdom_text}The Second Bulgarian Empire was established in 1185 following a successful rebellion against The Eastern Roman Empire's rule. The second half of the 13th century was a period of considerable challenge, marked by internal strife, external threats from the Mongols, and complex diplomatic relations with neighboring powers. Despite these issues, the empire maintained its cultural and religious significance in the region.">
 		<relationships>
-            
+            		<relationship kingdom="Kingdom.bulgaria_rebels" value="-1" isAtWar="true" />
         </relationships>
 		<policies>
 			<policy id="policy_serfdom"/>
