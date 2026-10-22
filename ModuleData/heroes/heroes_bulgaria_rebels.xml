@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan_bulgaria_rebels_1: Asen -->
+	<Hero id="lord_bulgaria_1d" spouse="Hero.lord_bulgaria_1e" faction="Faction.clan_bulgaria_rebels_1"/>
+	<Hero id="lord_bulgaria_1e" spouse="Hero.lord_bulgaria_1d" faction="Faction.clan_bulgaria_rebels_1"/>
+	<Hero id="lord_bulgaria_1f" father="Hero.lord_bulgaria_1d" mother="Hero.lord_bulgaria_1e" faction="Faction.clan_bulgaria_rebels_1"/>
+	<Hero id="lord_bulgaria_1g" father="Hero.lord_bulgaria_1d" mother="Hero.lord_bulgaria_1e" faction="Faction.clan_bulgaria_rebels_1"/>
+</Heroes>

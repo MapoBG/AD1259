@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- clan_bulgaria_rebels_1: Asen -->
+	<NPCCharacter id="lord_bulgaria_1d" name="{=lord_bulgaria_1d}Mitso Asen" voice="curt" age="38" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="37.00" weight="0.4500" build="0.6800" key="0018E00B800021427C64B796788475848CAD95A89869D87E6978977926B7C90400BB965705A7A768000000000000000000000000000000000000000020B82042" />
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_bulgaria_1e" name="{=lord_bulgaria_1e}Maria Asenina" voice="earnest" age="19" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="20.00" weight="0.2800" build="0.3500" key="0011600800A020478D62AB66687474949C65CB866898734C66D8854266637A910175461307A8569B000000000000000000000000000000000000000020B84083" />
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_bulgaria_1f" name="{=lord_bulgaria_1f}Ivan Asen III" voice="curt" age="0" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="0.10" weight="0.2000" build="0.1000" key="0018E001000020027D64B796687474848CAD95A86898734C697897792663790400BB965705A7A768000000000000000000000000000000000000000020B82042" />
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_bulgaria_1g" name="{=lord_bulgaria_1g}Kira Maria" voice="softspoken" age="2" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="2.50" weight="0.2200" build="0.1500" key="00116001000020478C62AB66688474949C65CB866898734C66D8854266637A910175461307A8569B000000000000000000000000000000000000000020B84083" />
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

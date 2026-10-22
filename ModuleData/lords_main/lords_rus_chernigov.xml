@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <NPCCharacters>
 	<!-- Principality of Chernigov -->
-	<NPCCharacter id="lord_chernigov_1a" name="{=lord_chernigov_1}Saint Mikhail I Vsevolodovich" voice="softspoken" age="58" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1a" name="{=lord_chernigov_1}Saint Mikhail I Vsevolodovich" voice="softspoken" age="61" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<BodyProperties version="4" age="61.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -16,11 +16,11 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Valor" value="0"/>
-			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="2"/>
 			<Trait id="Generosity" value="2"/>
-			<Trait id="Calculating" value="2"/>
+			<Trait id="Calculating" value="1"/>
 			<Trait id="Egalitarian" value="-1"/>
 			<Trait id="Oligarchic" value="0"/>
 			<Trait id="Authoritarian" value="0"/>
@@ -30,9 +30,9 @@
 			<EquipmentSet id="chernigov_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1b" name="{=lord_chernigov_2}Elena Romanovna" voice="softspoken" age="49" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1b" name="{=lord_chernigov_2}Elena Romanovna" voice="softspoken" age="47" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
+			<BodyProperties version="4" age="47.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -56,38 +56,9 @@
 			<EquipmentSet id="chernigov_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1c" name="{=lord_chernigov_3}Rostislav I Mikhailovich" voice="softspoken" age="20" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1d" name="{=lord_chernigov_4}Maria Mikhailovna" voice="softspoken" age="44" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.18" weight="0.4375" build="0.5" key="0000000000000002797A2785686678B9A35E866295A0967774414A498C8336860097760309A7B7A500000000000000000000000000000000000000003D3C2002"/>
-			<hair_tags>
-				<hair_tag name="sturgia"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="sturgia"/>
-			</beard_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="-2"/>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="0"/>
-			<Trait id="Generosity" value="-1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Egalitarian" value="-1"/>
-			<Trait id="Oligarchic" value="-1"/>
-			<Trait id="Authoritarian" value="-2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="chernigov_lord_combat"/>
-			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1d" name="{=lord_chernigov_4}Maria Mikhailovna" voice="softspoken" age="19" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="22.18" weight="0.4375" build="0.5" key="0000000000001005797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
+			<BodyProperties version="4" age="44.18" weight="0.4375" build="0.5" key="0000000000001005797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -111,9 +82,9 @@
 			<EquipmentSet id="chernigov_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1e" name="{=lord_chernigov_5}Roman I Mikhailovich the Old" voice="softspoken" age="20" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1e" name="{=lord_chernigov_5}Roman I Mikhailovich the Old" voice="softspoken" age="41" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.18" weight="0.655" build="0.2938" key="000200000000000879B3595A684A88BBA35E866295A0967774414A498C8336860044A60304A7B7A500000000000000000000000000000000000000003C842002"/>
+			<BodyProperties version="4" age="41.18" weight="0.655" build="0.2938" key="000200000000000879B3595A684A88BBA35E866295A0967774414A498C8336860044A60304A7B7A500000000000000000000000000000000000000003C842002"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -140,9 +111,9 @@
 			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1f" name="{=lord_chernigov_6}Mstislav Mikhailovich" voice="softspoken" age="10" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1f" name="{=lord_chernigov_6}Mstislav Mikhailovich" voice="softspoken" age="39" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.18" weight="0.6176" build="0.5826" key="000000000000101079ADD3B877596D69A35E866295A0967774414A498C8336860059960305A7B7A500000000000000000000000000000000000000004AB42003"/>
+			<BodyProperties version="4" age="39.18" weight="0.6176" build="0.5826" key="000000000000101079ADD3B877596D69A35E866295A0967774414A498C8336860059960305A7B7A500000000000000000000000000000000000000004AB42003"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -169,9 +140,9 @@
 			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1g" name="{=lord_chernigov_7}Simeon Mikhailovich" voice="softspoken" age="14" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1g" name="{=lord_chernigov_7}Simeon Mikhailovich" voice="softspoken" age="37" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000500000000100F79B3595A684A88BBA35E866295A0967774414A498C8336860089760308A7B7A500000000000000000000000000000000000000004B0C2003"/>
+			<BodyProperties version="4" age="37.18" weight="0.4926" build="0.5826" key="000500000000100F79B3595A684A88BBA35E866295A0967774414A498C8336860089760308A7B7A500000000000000000000000000000000000000004B0C2003"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -198,9 +169,9 @@
 			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1h" name="{=lord_chernigov_8}Yury Mikhailovich" voice="softspoken" age="19" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1h" name="{=lord_chernigov_8}Yury Mikhailovich" voice="softspoken" age="31" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.18" weight="0.7986" build="0.5826" key="000000000000055B7987BCC5B9597664A35E866295A0967774414A498C8336860089C60308A7B7A500000000000000000000000000000000000000004B142002"/>
+			<BodyProperties version="4" age="31.18" weight="0.7986" build="0.5826" key="000000000000055B7987BCC5B9597664A35E866295A0967774414A498C8336860089C60308A7B7A500000000000000000000000000000000000000004B142002"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -227,9 +198,9 @@
 			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1i" name="{=lord_chernigov_9}Anna" voice="softspoken" age="19" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1i" name="{=lord_chernigov_9}Anna" voice="softspoken" age="37" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C0D000030017CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A796030AA7497300000000000000000000000000000000000000003B644003"/>
+			<BodyProperties version="4" age="37.03" weight="0.6273" build="0.5" key="00000C0D000030017CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A796030AA7497300000000000000000000000000000000000000003B644003"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -253,9 +224,9 @@
 			<EquipmentSet id="chernigov_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1j" name="{=lord_chernigov_10}Knyaz Michail of Bryansk" voice="softspoken" age="48" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1j" name="{=lord_chernigov_10}Knyaz Michail of Bryansk" voice="softspoken" age="12" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.03" weight="0.5671" build="0.5625" key="00000C00000021C77CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A896030AA7497300000000000000000000000000000000000000003B647002"/>
+			<BodyProperties version="4" age="12.03" weight="0.5671" build="0.5625" key="00000C00000021C77CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A896030AA7497300000000000000000000000000000000000000003B647002"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -282,9 +253,9 @@
 			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1k" name="{=lord_chernigov_11}Knyaz Oleg of Chernigov" voice="softspoken" age="30" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1k" name="{=lord_chernigov_11}Knyaz Oleg of Chernigov" voice="softspoken" age="14" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.03" weight="0.5671" build="0.5625" key="00000C08C00030057CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A896030AA7497300000000000000000000000000000000000000003B644003"/>
+			<BodyProperties version="4" age="14.03" weight="0.5671" build="0.5625" key="00000C08C00030057CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A896030AA7497300000000000000000000000000000000000000003B644003"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -311,31 +282,9 @@
 			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1l" name="{=lord_chernigov_12}Alexander Michailovich" voice="softspoken" age="6" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_1l" name="{=lord_chernigov_12}Olga Romanovna" voice="softspoken" age="9" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.03" weight="0.5671" build="0.5625" key="00000C00000021C77CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A896030AA7497300000000000000000000000000000000000000003B647002"/>
-			<hair_tags>
-				<hair_tag name="sturgia"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="sturgia"/>
-			</beard_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits>
-
-        </Traits>
-		<Equipments>
-			<EquipmentSet id="chernigov_lord_combat"/>
-			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_1m" name="{=lord_chernigov_13}Olga Romanovna" voice="softspoken" age="5" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="22.03" weight="0.5671" build="0.5625" key="00000C00000030057CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A896030AA7497300000000000000000000000000000000000000003B644003"/>
+			<BodyProperties version="4" age="9.03" weight="0.5671" build="0.5625" key="00000C00000030057CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A896030AA7497300000000000000000000000000000000000000003B644003"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -346,63 +295,15 @@
 		<skills/>
 		<Traits>
 
-        </Traits>
+        	</Traits>
 		<Equipments>
 			<EquipmentSet id="chernigov_lord_combat"/>
 			<EquipmentSet id="chernigov_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_2a" name="{=lord_chernigov_14}Gleb Svyatoslavich of Chernigov" voice="softspoken" age="49" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_2c" name="{=lord_chernigov_13}Mstislav III Glebovich" voice="softspoken" age="45" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.03" weight="0.5671" build="0.5625" key="00000C00000021C87CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A896030AA7497300000000000000000000000000000000000000003B647002"/>
-			<hair_tags>
-				<hair_tag name="sturgia"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="sturgia"/>
-			</beard_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits>
-
-        </Traits>
-		<Equipments>
-			<EquipmentSet id="chernigov_lord_combat"/>
-			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_2b" name="{=lord_chernigov_15}Anastasia Ryurikovna" voice="softspoken" age="49" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
-			<hair_tags>
-				<hair_tag name="sturgia"/>
-			</hair_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="2"/>
-			<Trait id="Valor" value="0"/>
-			<Trait id="Honor" value="-2"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Calculating" value="-2"/>
-			<Trait id="Egalitarian" value="-2"/>
-			<Trait id="Oligarchic" value="-1"/>
-			<Trait id="Authoritarian" value="-1"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="chernigov_lord_combat"/>
-			<EquipmentSet id="chernigov_noble_lady" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_2c" name="{=lord_chernigov_16}Mstislav III Glebovich" voice="softspoken" age="30" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C0B800020467CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A796030AA7497300000000000000000000000000000000000000003B647002"/>
+			<BodyProperties version="4" age="45.03" weight="0.6273" build="0.5" key="00000C0B800020467CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A796030AA7497300000000000000000000000000000000000000003B647002"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -429,9 +330,9 @@
 			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_2d" name="{=lord_chernigov_17}Andrei Glebovich" voice="softspoken" age="8" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_2d" name="{=lord_chernigov_14}Andrei Glebovich" voice="softspoken" age="31" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.18" weight="0.7986" build="0.5826" key="000000000000055B7987BCC5B9597664A35E866295A0967774414A498C8336860089C60308A7B7A500000000000000000000000000000000000000004B142002"/>
+			<BodyProperties version="4" age="32.18" weight="0.7986" build="0.5826" key="000000000000055B7987BCC5B9597664A35E866295A0967774414A498C8336860089C60308A7B7A500000000000000000000000000000000000000004B142002"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -458,9 +359,9 @@
 			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_chernigov_2e" name="{=lord_chernigov_18}Oleg Glebovich" voice="softspoken" age="6" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_chernigov_2e" name="{=lord_chernigov_15}Oleg Glebovich" voice="softspoken" age="28" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.18" weight="0.6176" build="0.5826" key="000000000000101079ADD3B877596D69A35E866295A0967774414A498C8336860059960305A7B7A500000000000000000000000000000000000000004AB42003"/>
+			<BodyProperties version="4" age="28.18" weight="0.6176" build="0.5826" key="000000000000101079ADD3B877596D69A35E866295A0967774414A498C8336860059960305A7B7A500000000000000000000000000000000000000004AB42003"/>
 			<hair_tags>
 				<hair_tag name="sturgia"/>
 			</hair_tags>
@@ -485,6 +386,46 @@
 		<Equipments>
 			<EquipmentSet id="chernigov_lord_combat"/>
 			<EquipmentSet id="chernigov_lord_noncombat" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_chernigov_2f" name="{=lord_chernigov_16}Malfrida Rostislavna" voice="earnest" age="25" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_merchant_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="25.40" weight="0.4520" build="0.5100" key="001A8C00150030097CD76B498AF7A5AC7577866254C69643C4B647398C95A03700A896030AA7497300000000000000000000000000000000000000003B644003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1" />
+			<Trait id="Generosity" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="chernigov_lord_combat"/>
+			<EquipmentSet id="chernigov_noble_lady" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_chernigov_2g" name="{=lord_chernigov_17}Evpraxia Svyatoslavna" voice="softspoken" age="22" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_wanderer_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.15" weight="0.5120" build="0.4850" key="00026400110020057CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A896030AA7497300000000000000000000000000000000000000004B243003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1" />
+			<Trait id="Merciful" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="chernigov_lord_combat"/>
+			<EquipmentSet id="chernigov_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

@@ -30,7 +30,7 @@
 	<Hero id="dead_lord_nicaea_4" alive="false" spouse="Hero.dead_lord_nicaea_5" faction="Faction.clan_nicaea_2"/>
 	<Hero id="dead_lord_nicaea_5" alive="false" spouse="Hero.dead_lord_nicaea_4" faction="Faction.clan_nicaea_2"/>
 	<Hero id="dead_lord_nicaea_6" spouse="Hero.lord_nicaea_2_1" alive="false" father="Hero.dead_lord_nicaea_4" mother="Hero.dead_lord_nicaea_5" faction="Faction.clan_nicaea_2"/>
-	<Hero id="lord_nicaea_2_1" spouse="Hero.dead_lord_nicaea_6" faction="Faction.clan_nicaea_2"/>
+	<Hero id="lord_nicaea_2_1" alive="false" spouse="Hero.dead_lord_nicaea_6" faction="Faction.clan_nicaea_2"/>
 	<Hero id="lord_nicaea_2_1_1" father="Hero.dead_lord_nicaea_6" mother="Hero.lord_nicaea_2_1" faction="Faction.clan_nicaea_2"/>
 	<Hero id="lord_nicaea_2_1_2" father="Hero.dead_lord_nicaea_6" mother="Hero.lord_nicaea_2_1" faction="Faction.clan_nicaea_2"/>
 	<Hero id="lord_nicaea_2_2" faction="Faction.clan_nicaea_2"/>

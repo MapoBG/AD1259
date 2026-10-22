@@ -13,10 +13,10 @@
 	         banner_key="11.142.142.3497.3497.684.682.0.0.0.10092.15.116.600.700.764.764.1.0.0"/>
 	<!-- clan_nicaea_2: House of Láskaris: https://wappenwiki.org/index.php/House_of_Laskaris : Needs fixing -->
 	<Faction id="clan_nicaea_2"
-	         initial_home_settlement="Settlement.town_dyrrhacium"
+	         initial_home_settlement="Settlement.castle_atikhisar"
 	         name="{=nobleHouse_nicaea_2}House of Láskaris"
 	         tier="5"
-	         owner="Hero.lord_nicaea_2_1"
+	         owner="Hero.lord_nicaea_2_3"
 	         culture="Culture.greek"
 	         super_faction="Kingdom.nicaea"
 	         is_noble="true"

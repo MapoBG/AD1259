@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <NPCCharacters>
 	<!-- clan_bulgaria_1: Asen -->
-	<NPCCharacter id="lord_bulgaria_1a" name="{=lord_bulgaria_1a}Konstantin I Tikh" voice="curt" age="40" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_bulgaria_1a" name="{=lord_bulgaria_1a}Konstantin I Tih Asen" voice="curt" age="35" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="57.13" weight="0.5995" build="0.773" key="00008C000000134B8636689C7884776462AD85A89769D8B967999A6426B9C674055C965705A7A768000000000000000000000000000000000000000020B82142"/>
+			<BodyProperties version="4" age="35.13" weight="0.5995" build="0.773" key="00008C000000124B8636689C7884776462AD85A89769D8B967999A6426B9C674055C965705A7A768000000000000000000000000000000000000000020B82142"/>
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>
@@ -16,75 +16,30 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Valor" value="0"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Generosity" value="2"/>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-2"/>
 			<Trait id="Calculating" value="2"/>
-			<Trait id="Egalitarian" value="-1"/>
-			<Trait id="Oligarchic" value="0"/>
-			<Trait id="Authoritarian" value="0"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bulgaria_king_combat"/>
 			<EquipmentSet id="bulgaria_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_1b" name="{=lord_bulgaria_1b}Irene Doukaina Laskarina" voice="earnest" age="30" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_bulgaria_1b" name="{=lord_bulgaria_1b}Irene Laskarina Asenina" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="28.66" weight="0.2608" build="0.341" key="00106C0400A030049B4A8C56738268BBAB75CB8A68D6725D62D9858266637A910175461307E8569B000000000000000000000000000000000000000034EC4083"/>
+			<BodyProperties version="4" age="20.66" weight="0.2608" build="0.341" key="00106C0400A030049B4A8C56738268BBAB75CB8A68D6725D62D9858266637A910175461307E8569B000000000000000000000000000000000000000034EC4083"/>
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="2"/>
-			<Trait id="Valor" value="0"/>
-			<Trait id="Honor" value="-2"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Calculating" value="-2"/>
-			<Trait id="Egalitarian" value="-2"/>
-			<Trait id="Oligarchic" value="-1"/>
-			<Trait id="Authoritarian" value="-1"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_queen_noncombat" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_1c" name="{=lord_bulgaria_1c}Michael Tih" voice="ironic" age="11" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="28.66" weight="0.2608" build="0.341" key="00106C0400A030049B4A8C56738268BBAB75CB8A68D6725D62D9858266637A910175461307E8569B000000000000000000000000000000000000000034EC4083"/>
-			<hair_tags>
-				<hair_tag name="empire"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="empire"/>
-			</beard_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits/>
-		<Equipments>
-			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_1d" name="{=lord_bulgaria_1d}Mitso Asen" voice="curt" age="42" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="57.13" weight="0.5995" build="0.773" key="00008C000000134B8636689C7884776462AD85A89769D8B967999A6426B9C674055C965705A7A768000000000000000000000000000000000000000020B82142"/>
-			<hair_tags>
-				<hair_tag name="empire"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="empire"/>
-			</beard_tags>
 			<tattoo_tags>
 				<tattoo_tag name="Cleanface"/>
 			</tattoo_tags>
@@ -92,48 +47,22 @@
 		<skills/>
 		<Traits>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Valor" value="0"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Honor" value="1"/>
-			<Trait id="Generosity" value="2"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="2"/>
 			<Trait id="Egalitarian" value="-1"/>
-			<Trait id="Oligarchic" value="0"/>
-			<Trait id="Authoritarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
+			<EquipmentSet id="bulgaria_queen_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_1e" name="{=lord_bulgaria_1e}Maria" voice="earnest" age="41" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_bulgaria_1i" name="{=lord_bulgaria_1i}Sevastokrator Kaloyan, Ruler of Sredets" voice="curt" age="30" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="28.66" weight="0.2608" build="0.341" key="00106C0400A030049B4A8C56738268BBAB75CB8A68D6725D62D9858266637A910175461307E8569B000000000000000000000000000000000000000034EC4083"/>
-			<hair_tags>
-				<hair_tag name="empire"/>
-			</hair_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="2"/>
-			<Trait id="Valor" value="0"/>
-			<Trait id="Honor" value="-2"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Calculating" value="-2"/>
-			<Trait id="Egalitarian" value="-2"/>
-			<Trait id="Oligarchic" value="-1"/>
-			<Trait id="Authoritarian" value="-1"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_1f" name="{=lord_bulgaria_1f}Ivan Asen III" voice="curt" age="24" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="28.66" weight="0.2608" build="0.341" key="00106C0400A030049B4A8C56738268BBAB75CB8A68D6725D62D9858266637A910175461307E8569B000000000000000000000000000000000000000034EC4083"/>
+			<BodyProperties version="4" age="30.0" weight="0.3179" build="0.3287" key="001EDC0E400039427C7664876753888A7577866254C69643C4B647398C95A0370075560307A74973000000000000000000000000000000000000000062FC7005" />
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>
@@ -146,23 +75,26 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Mercy" value="2"/>
-			<Trait id="Valor" value="0"/>
-			<Trait id="Honor" value="-2"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Calculating" value="-2"/>
-			<Trait id="Egalitarian" value="-2"/>
-			<Trait id="Oligarchic" value="-1"/>
-			<Trait id="Authoritarian" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bulgaria_lord_combat"/>
 			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_1g" name="{=lord_bulgaria_1g}Kira Maria" voice="softspoken" age="23" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_bulgaria_1j" name="{=lord_bulgaria_1j}Sevastokratorissa Desislava" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="28.66" weight="0.2608" build="0.341" key="00106C0400A030049B4A8C56738268BBAB75CB8A68D6725D62D9858266637A910175461307E8569B000000000000000000000000000000000000000034EC4083"/>
+			<BodyProperties version="4" age="20.0" weight="0.2500" build="0.3000" key="0008DC0E4000300E7C7664876753888A7577866254C69643C4B647398C95A0370050060305A74973000000000000000000000000000000000000000068AC4004" />
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>
@@ -171,15 +103,78 @@
 			</tattoo_tags>
 		</face>
 		<skills/>
-		<Traits/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
 		<Equipments>
 			<EquipmentSet id="bulgaria_lord_combat"/>
 			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_1h" name="{=lord_bulgaria_1h}Irene Palaiologina" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_bulgaria_1k" name="{=lord_bulgaria_1k}Sevastokrator Petar Asen, Head of the Boyar Council" voice="curt" age="46" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="28.66" weight="0.2608" build="0.341" key="00106C0400A030049B4A8C56738268BBAB75CB8A68D6725D62D9858266637A910175461307E8569B000000000000000000000000000000000000000034EC4083"/>
+			<BodyProperties version="4" age="46.00" weight="0.4800" build="0.6500" key="0011900C8000104B8664BB6A748286A4BCBB9A979E87834C697A7684879CC65400BB86030999A99C000000000000000000000000000000000000000030DC3042" />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_bulgaria_1l" name="{=lord_bulgaria_1l}Sevastokratorissa Anna-Teodora Asenina" voice="earnest" age="21" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Infantry">
+		<face>
+			<BodyProperties version="4" age="39.00" weight="0.2500" build="0.3000" key="00116008000000049B648C66538468B4AC32CB866898725962D985426A637A910175461307A8569B000000000000000000000000000000000000000030DC4083" />
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_bulgaria_1m" name="{=lord_bulgaria_1m}Anna-Maria" voice="softspoken" age="5" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="5.50" weight="0.2000" build="0.1500" key="00116001000000009B648C66538468B4AC32CB866898725962D985426A637A910175461307A8569B000000000000000000000000000000000000000030DC4083" />
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>
@@ -195,9 +190,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_bulgaria_2: Terter -->
-	<NPCCharacter id="lord_bulgaria_2a" name="{=lord_bulgaria_2a}Georgi I" voice="softspoken" age="33" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_bulgaria_2_father_dead" name="{=lord_bulgaria_2_father_dead}Terteroba" voice="softspoken" age="60" is_female="false" is_hero="true" culture="Culture.cuman" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="60.07" weight="1" build="1" key="0015B00800B4368C765ADB8A8985F29DAA4656A6AE95B364B763888B492588A6057FFF57079248B6000000000000000000000000000000000000000042E88002"/>
+			<BodyProperties version="4" age="60.00" weight="0.5500" build="0.7200" key="0018E00F800021846D749B9698889684BC7BA4829DA8847E6998679A8697D90400BB870308A5A9BC00000000000000000000000000000000000000003F4A5043" />
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>
@@ -210,151 +205,12 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Mercy" value="2"/>
+			<Trait id="Mercy" value="0"/>
 			<Trait id="Valor" value="1"/>
 			<Trait id="Honor" value="0"/>
-			<Trait id="Generosity" value="2"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Egalitarian" value="-2"/>
-			<Trait id="Oligarchic" value="0"/>
-			<Trait id="Authoritarian" value="-2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_2b" name="{=lord_bulgaria_2b}Maria" voice="earnest" age="24" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000500000000100F79B3595A684A88BBA35E866295A0967774414A498C8336860089760308A7B7A500000000000000000000000000000000000000004B0C2003"/>
-			<hair_tags>
-				<hair_tag name="empire"/>
-			</hair_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="-2"/>
-			<Trait id="Valor" value="2"/>
-			<Trait id="Honor" value="1"/>
 			<Trait id="Generosity" value="0"/>
-			<Trait id="Calculating" value="2"/>
-			<Trait id="Egalitarian" value="2"/>
-			<Trait id="Oligarchic" value="1"/>
-			<Trait id="Authoritarian" value="-2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_2c" name="{=lord_bulgaria_2c}Teodor Svetoslav" voice="curt" age="8" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="27.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
-			<hair_tags>
-				<hair_tag name="empire"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="empire"/>
-			</beard_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits/>
-		<Equipments>
-			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_2d" name="{=lord_bulgaria_2d}Elena Georgina Terter" voice="curt" age="6" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="27.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
-			<hair_tags>
-				<hair_tag name="empire"/>
-			</hair_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits/>
-		<Equipments>
-			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_2e" name="{=lord_bulgaria_2e}Anna Georgina Terter" voice="ironic" age="5" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="27.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
-			<hair_tags>
-				<hair_tag name="empire"/>
-			</hair_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits/>
-		<Equipments>
-			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_2f" name="{=lord_bulgaria_2f}Georgi Terter I" voice="softspoken" age="30" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="60.07" weight="1" build="1" key="0015B00800B4368C765ADB8A8985F29DAA4656A6AE95B364B763888B492588A6057FFF57079248B6000000000000000000000000000000000000000042E88002"/>
-			<hair_tags>
-				<hair_tag name="empire"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="empire"/>
-			</beard_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="2"/>
-			<Trait id="Valor" value="1"/>
-			<Trait id="Honor" value="0"/>
-			<Trait id="Generosity" value="2"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Egalitarian" value="-2"/>
-			<Trait id="Oligarchic" value="0"/>
-			<Trait id="Authoritarian" value="-2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- clan_bulgaria_3: Vlachs -->
-	<NPCCharacter id="lord_bulgaria_3a" name="{=lord_bulgaria_3a}Seneslau, Voivod of Muntenia" voice="ironic" age="25" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="60.68" weight="0.2697" build="0.6373" key="000A800AC05813DB863C98875938AC554C88887877366446AD8595A83E93B93506DA46670D46678900000000000000000000000000000000000000002DAC1142"/>
-			<hair_tags>
-				<hair_tag name="empire"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="empire"/>
-			</beard_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Valor" value="0"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Generosity" value="2"/>
-			<Trait id="Calculating" value="2"/>
-			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Egalitarian" value="0"/>
 			<Trait id="Oligarchic" value="0"/>
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
@@ -363,12 +219,156 @@
 			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_3b" name="{=lord_bulgaria_3b}Ioana" voice="softspoken" age="23" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_bulgaria_2a" name="{=lord_bulgaria_2a}Georgi I Terter" voice="softspoken" age="18" is_female="false" is_hero="true" culture="Culture.cuman" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="28.66" weight="0.2608" build="0.341" key="00106C0400A030049B4A8C56738268BBAB75CB8A68D6725D62D9858266637A910175461307E8569B000000000000000000000000000000000000000034EC4083"/>
+			<BodyProperties version="4" age="18.16" weight="0.3762" build="0.758"  key="0008E00B80141482CD94B7A6B484A5848C7AA3729CA7637E59785779B687C904009B6603095289AC00000000000000000000000000000000000000002F2C6042"  />
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_bulgaria_2b" name="{=lord_bulgaria_2b}Eltimir Terter" voice="softspoken" age="16" is_female="false" is_hero="true" culture="Culture.cuman" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="16.16" weight="0.713" build="0.713"  key="0015B00800B41403765ADB8A8985F29DAA4656A6AE95B364B763888B49258806007BBF03079248B6000000000000000000000000000000000000000042E88002"  />
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan_bulgaria_3: Vlachs -->
+	<NPCCharacter id="lord_bulgaria_3a" name="{=lord_bulgaria_3a}Seneslau, Voivod of Muntenia" voice="ironic" age="42" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="42.00" weight="0.2697" build="0.6373" key="000A800AC05812DB863C98875938AC554C88887877366446AD8595A83E93B93506DA46670D46678900000000000000000000000000000000000000002DAC1142"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_bulgaria_3b" name="{=lord_bulgaria_3b}Ioana" voice="softspoken" age="23" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Infantry">
+		<face>
+			<BodyProperties version="4" age="23.00" weight="0.2608" build="0.341" key="00106C0400A030049B4A8C56738268BBAB75CB8A68D6725D62D9858266637A910175461307E8569B000000000000000000000000000000000000000034EC4083"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_bulgaria_3c" name="{=lord_bulgaria_3c}Johannes, Knyaz of South Oltenia" voice="earnest" age="48" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="48.00" weight="0.7287" build="0.3652" key="000A500200E43002A8CB3B7DBA9B5B999CBAA88583A62747BA69D949489889720065B60306A797A6000000000000000000000000000000000000000060D41103"/>
+			<hair_tags><hair_tag name="empire"/></hair_tags>
+			<beard_tags><beard_tag name="empire"/></beard_tags>
+			<tattoo_tags><tattoo_tag name="Cleanface"/></tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_bulgaria_3d" name="{=lord_bulgaria_3d}Farcaş, Knyaz of North Oltenia" voice="curt" age="45" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="45.00" weight="0.4375" build="0.5" key="0000000000001205797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
 			<tattoo_tags>
 				<tattoo_tag name="Cleanface"/>
 			</tattoo_tags>
@@ -377,41 +377,12 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="bulgaria_lord_combat"/>
-			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_3c" name="{=lord_bulgaria_3c}Johannes, Kenez of South Oltenia" voice="earnest" age="29" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="24.03" weight="0.7287" build="0.3652" key="000A500200E43002A8CB3B7DBA9B5B999CBAA88583A62747BA69D949489889720065B60306A797A6000000000000000000000000000000000000000060D41103"/>
-			<hair_tags>
-				<hair_tag name="empire"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="empire"/>
-			</beard_tags>
-			<tattoo_tags>
-				<tattoo_tag name="Cleanface"/>
-			</tattoo_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="2"/>
-			<Trait id="Valor" value="0"/>
-			<Trait id="Honor" value="-2"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Calculating" value="-2"/>
-			<Trait id="Egalitarian" value="-2"/>
-			<Trait id="Oligarchic" value="-1"/>
-			<Trait id="Authoritarian" value="-1"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="bulgaria_lord_combat"/>
 			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_3d" name="{=lord_bulgaria_3d}Farcaş, Kenez of North Oltenia" voice="curt" age="22" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_bulgaria_3_father_dead" name="{=lord_bulgaria_3_father_dead}Old Voivod of Oltenia" voice="ironic" age="65" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="12.5" weight="0.4375" build="0.5" key="0000000000001005797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
+			<BodyProperties version="4" age="65.00" weight="0.5" build="0.5" key="000500000000130D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>
@@ -424,14 +395,11 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Mercy" value="2"/>
+			<Trait id="Mercy" value="0"/>
 			<Trait id="Valor" value="1"/>
-			<Trait id="Honor" value="2"/>
-			<Trait id="Generosity" value="2"/>
-			<Trait id="Calculating" value="0"/>
-			<Trait id="Egalitarian" value="-2"/>
-			<Trait id="Oligarchic" value="0"/>
-			<Trait id="Authoritarian" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bulgaria_lord_combat"/>
@@ -453,14 +421,17 @@
 		</face>
 		<skills/>
 		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Manager" value="5"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Valor" value="0"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Honor" value="1"/>
 			<Trait id="Generosity" value="2"/>
 			<Trait id="Calculating" value="2"/>
 			<Trait id="Egalitarian" value="-1"/>
-			<Trait id="Oligarchic" value="0"/>
-			<Trait id="Authoritarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bulgaria_lord_combat"/>
@@ -478,7 +449,18 @@
 			</tattoo_tags>
 		</face>
 		<skills/>
-		<Traits/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
 		<Equipments>
 			<EquipmentSet id="bulgaria_lord_combat"/>
 			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
@@ -486,7 +468,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="lord_bulgaria_3g" name="{=lord_bulgaria_3g}Bărbat, Voivod of North Oltenia" voice="curt" age="28" is_female="false" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="000500000000110D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2102"/>
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>
@@ -499,23 +481,28 @@
 		</face>
 		<skills/>
 		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Manager" value="5"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Valor" value="0"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Honor" value="1"/>
 			<Trait id="Generosity" value="2"/>
 			<Trait id="Calculating" value="2"/>
 			<Trait id="Egalitarian" value="-1"/>
-			<Trait id="Oligarchic" value="0"/>
-			<Trait id="Authoritarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bulgaria_lord_combat"/>
 			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_bulgaria_3h" name="{=lord_bulgaria_3h}Floarea" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+
+	<!-- 3h: Флоареа -->
+	<NPCCharacter id="lord_bulgaria_3h" name="{=lord_bulgaria_3h}Floarea" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="28.66" weight="0.2608" build="0.341" key="00106C0400A030049B4A8C56738268BBAB75CB8A68D6725D62D9858266637A910175461307E8569B000000000000000000000000000000000000000034EC4083"/>
+			<BodyProperties version="4" age="20.00" weight="0.2608" build="0.341" key="00106C0400A020058D62AB66687474949C65CB866898734C66D8854266637A910175461307A8569B000000000000000000000000000000000000000020AC4083"/>
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>
@@ -524,7 +511,80 @@
 			</tattoo_tags>
 		</face>
 		<skills/>
-		<Traits/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan_bulgaria_4: Svetoslav -->
+	<NPCCharacter id="lord_bulgaria_4a" name="{=lord_bulgaria_4a}Yakov Svetoslav, Kievan Knyaz" voice="curt" age="39" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="39.0" weight="0.5849" build="0.6944" key="0002B800000030037C7664876753888A7577866254C69643C4B647398C95A03700BA96030BA7497300000000000000000000000000000000000000005F647002" />
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bulgaria_lord_combat"/>
+			<EquipmentSet id="bulgaria_lord_noncombat" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_bulgaria_4b" name="{=lord_bulgaria_4b}Anna Laskarina" voice="earnest" age="18" is_female="true" is_hero="true" culture="Culture.bulgaria" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="10.0" weight="0.2315" build="0.2315" key="0005B8000000300A7C7664876753888A7577866254C69643C4B647398C95A0370083360308A7497300000000000000000000000000000000000000005F0C4002" />
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
 		<Equipments>
 			<EquipmentSet id="bulgaria_lord_combat"/>
 			<EquipmentSet id="bulgaria_noble_lady" equipmentType="Civilian"/>

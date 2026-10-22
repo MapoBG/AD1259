@@ -11,7 +11,7 @@
 	         is_noble="true"
 	         banner_key="11.7.7.3497.3497.684.682.0.0.0.503.14.14.246.246.914.614.0.0.0.503.14.14.246.246.614.614.0.0.0.503.14.14.246.246.764.932.0.0.0"/>
 	<Faction id="clan_latinempire_2"
-	         initial_home_settlement="Settlement.town_adrianople"
+	         initial_home_settlement="Settlement.town_corinth"
 	         name="{=nobleHouse_latinempire_2}Maison de Villehardouin"
 	         tier="5"
 	         owner="Hero.lord_latin_2_1"
@@ -20,7 +20,7 @@
 	         is_noble="true"
 	         banner_key="11.14.14.3497.3497.684.682.0.0.0.419.7.7.515.515.764.764.0.0.0"/>
 	<Faction id="clan_latinempire_3"
-	         initial_home_settlement="Settlement.castle_trebizond"
+	         initial_home_settlement="Settlement.castle_athens"
 	         name="{=nobleHouse_latinempire_3}Maison de la Roche"
 	         tier="6"
 	         owner="Hero.lord_latin_3_1"

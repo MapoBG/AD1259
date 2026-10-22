@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+		<!-- 3 yellow lions on red -->
+	<Faction id="clan_bulgaria_rebels_1"
+	         initial_home_settlement="Settlement.castle_varna"
+	         name="{=bulgaria_rebels_clan1}Asen"
+	         tier="6"
+	         owner="Hero.lord_bulgaria_1d"
+	         culture="Culture.bulgaria"
+	         super_faction="Kingdom.bulgaria_rebels"
+	         is_noble="true"
+	         banner_key="11.286.286.1528.1528.764.764.1.0.0.10293.166.171.483.483.764.764.0.0.0"/>
+</Factions>

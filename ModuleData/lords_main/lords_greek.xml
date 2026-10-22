@@ -592,7 +592,7 @@
 			<EquipmentSet id="nicaea_emperor_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_nicaea_2_1" name="{=nicaea_lady_11}Eléni Asanína of Bulgaria" age="35" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.greek" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+	<NPCCharacter id="lord_nicaea_2_1" name="{=nicaea_lady_11}Eléni Asenína of Bulgaria" age="35" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.greek" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="62.43" weight="0.7919" build="0.3049" key="0008F00E402C400576848D8D386682AB88877B6468679867B2882D57789663B30675C06707B8567700000000000000000000000000000000000000003CF00040"/>
 			<hair_tags>

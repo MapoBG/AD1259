@@ -61,4 +61,14 @@
 	         super_faction="Kingdom.hungary"
 	         is_noble="true"
 	         banner_key="11.141.141.6401.3978.877.1269.1.0.0.158.15.15.611.611.914.764.0.0.270.158.15.15.-598.-598.614.764.0.1.270"/>
+	<!-- clan 7: Rostislavich / Chernigov nemzetség (Russian nobles fleeing the Mongols) -->
+	<Faction id="clan_hungary_7"
+	         initial_home_settlement="Settlement.town_belgrade"
+	         name="{=nobleHouse_hungary_7}Rostislavich nemzetség"
+	         tier="5"
+	         owner="Hero.lord_hungary_7_1_1"
+	         culture="Culture.hungarian"
+	         super_faction="Kingdom.hungary"
+	         is_noble="true"
+	         banner_key="29.14.33.6500.3981.764.718.1.0.0.505.14.116.0.0.3918.1994.0.0.0"/>
 </Factions>
