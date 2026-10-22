@@ -40,12 +40,12 @@
 			<tag tag_name="CruelTag" weight="1"/>
 		</tags>
 	</string>
-	<string id="str_liege_title.bulgaria" text="{=BPVj4dXP}rightful King of the Bulgarians">
+	<string id="str_liege_title.bulgaria" text="{=BPVj4dXP}rightful Tsar of the Bulgarians">
 		<tags>
 			<tag tag_name="BulgariaTag"/>
 		</tags>
 	</string>
-	<string id="str_liege_title_female.bulgaria" text="{=PzwvhvFm}rightful Queen of the Bulgarians">
+	<string id="str_liege_title_female.bulgaria" text="{=PzwvhvFm}rightful Tsaritsa of the Bulgarians">
 		<tags>
 			<tag tag_name="BulgariaTag"/>
 		</tags>
