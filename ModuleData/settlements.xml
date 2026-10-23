@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Settlements>
   <!-- Sorted and grouped as per stage-2 on https://docs.google.com/spreadsheets/d/11zvdd5h5lTF7J8fCFsrKyvX0YNgrjHQ76IP0f48yMLE/edit?gid=0#gid=0   -->
   <!-- Best reference map: https://www.deviantart.com/cyowari/art/Europe-in-Details-AD-1261-900171266   -->
@@ -8035,9 +8035,9 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_ragusa_trebinje" name="{=town_ragusa_trebinje_name}Trebinje" posX="630.222" posY="970.917" culture="Culture.italian" text="{=town_ragusa_trebinje_text}Trebinje text...">
+  <Settlement id="town_ragusa_trebinje" name="{=town_ragusa_trebinje_name}Trebinje" posX="630.222" posY="970.917" culture="Culture.serbia" text="{=town_ragusa_trebinje_text}Trebinje text...">
     <Components>
-      <Village id="town_comp_ragusa_trebinje" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_ragusa" background_crop_position="0.0" background_mesh="gui_bg_village_italian" wait_mesh="wait_italian_village" castle_background_mesh="gui_bg_castle_italian" />
+      <Village id="town_comp_ragusa_trebinje" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_kotor" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_i" />
@@ -8061,9 +8061,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_ragusa_stolac" name="{=town_ragusa_stolac_name}Stolac" posX="609.016" posY="983.228" culture="Culture.italian" text="{=town_ragusa_stolac_text}Stolac text...">
+  <Settlement id="town_ragusa_stolac" name="{=town_ragusa_stolac_name}Stolac" posX="609.016" posY="983.228" culture="Culture.serbia" text="{=town_ragusa_stolac_text}Stolac text...">
     <Components>
-      <Village id="town_comp_ragusa_stolac" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.town_ragusa" background_crop_position="0.0" background_mesh="gui_bg_village_italian" wait_mesh="wait_italian_village" castle_background_mesh="gui_bg_castle_italian" />
+      <Village id="town_comp_ragusa_stolac" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.castle_kotor" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -8110,9 +8110,9 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_zadar_knin" name="{=town_zadar_knin_name}Knin" posX="572.423" posY="997.235" culture="Culture.italian" text="{=town_zadar_knin_text}Knin text...">
+  <Settlement id="town_zadar_knin" name="{=town_zadar_knin_name}Knin" posX="572.423" posY="997.235" culture="Culture.bosnia" text="{=town_zadar_knin_text}Knin text...">
     <Components>
-      <Village id="town_comp_zadar_knin" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_zadar" background_crop_position="0.0" background_mesh="gui_bg_village_italian" wait_mesh="wait_italian_village" castle_background_mesh="gui_bg_castle_italian" />
+      <Village id="town_comp_zadar_knin" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.castle_banjaluka" background_crop_position="0.0" background_mesh="gui_bg_village_bosnia" wait_mesh="wait_bosnia_village" castle_background_mesh="gui_bg_castle_bosnia" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -8149,9 +8149,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_terzsan" name="{=castle_terzsan_name}Terzsan Castle" owner="Faction.clan_venice_6" posX="549.563" posY="1006.862" culture="Culture.italian" gate_posX="549.3495" gate_posY="1007.373">
+  <Settlement id="castle_terzsan" name="{=castle_terzsan_name}Terzsan Castle" owner="Faction.clan_bosnia_3" posX="549.563" posY="1006.862" culture="Culture.bosnia" gate_posX="549.3495" gate_posY="1007.373">
     <Components>
-      <Town id="castle_comp_terzsan" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_italian" wait_mesh="wait_italian_town" gate_rotation="0.908" prosperity="500">
+      <Town id="castle_comp_terzsan" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_bosnia" wait_mesh="wait_bosnia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
           <Building id="building_castle_fortifications" level="2" />
           <Building id="building_castle_barracks" level="1" />
@@ -8175,7 +8175,7 @@
   </Settlement>
   <Settlement id="castle_terzsan_senj" name="{=castle_terzsan_senj_name}Zengg" posX="541.709" posY="1003.101" culture="Culture.italian" text="{=castle_terzsan_senj_text}Senj text...">
     <Components>
-      <Village id="castle_comp_terzsan_senj" village_type="VillageType.vineyard" hearth="300" bound="Settlement.castle_terzsan" background_crop_position="0.0" background_mesh="gui_bg_village_italian" wait_mesh="wait_italian_village" castle_background_mesh="gui_bg_castle_italian" />
+      <Village id="castle_comp_terzsan_senj" village_type="VillageType.vineyard" hearth="300" bound="Settlement.town_zadar" background_crop_position="0.0" background_mesh="gui_bg_village_italian" wait_mesh="wait_italian_village" castle_background_mesh="gui_bg_castle_italian" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_i" />
@@ -11276,7 +11276,7 @@
   </Settlement>
   <Settlement id="town_zagreb_vinica" name="{=town_zagreb_vinica_name}Vinica" posX="551.982" posY="1016.481" culture="Culture.bosnia" text="{=town_zagreb_vinica_text}Vinica text...">
     <Components>
-      <Village id="town_comp_zagreb_vinica" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.town_zagreb" background_crop_position="0.0" background_mesh="gui_bg_village_bosnia" wait_mesh="wait_bosnia_village" castle_background_mesh="gui_bg_castle_bosnia" />
+      <Village id="town_comp_zagreb_vinica" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.castle_terzsan" background_crop_position="0.0" background_mesh="gui_bg_village_bosnia" wait_mesh="wait_bosnia_village" castle_background_mesh="gui_bg_castle_bosnia" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_011" />
@@ -11313,9 +11313,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_gradina" name="{=castle_gradina_name}Gradina Castle" owner="Faction.clan_bosnia_2" posX="607.578" posY="1027.366" culture="Culture.bosnia" gate_posX="608.1013" gate_posY="1027.185">
+  <Settlement id="castle_gradina" name="{=castle_gradina_name}Macsó Castle" owner="Faction.clan_hungary_7" posX="607.578" posY="1027.366" culture="Culture.bulgaria" gate_posX="608.1013" gate_posY="1027.185">
     <Components>
-      <Town id="castle_comp_gradina" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_bosnia" wait_mesh="wait_bosnia_town" gate_rotation="0.908" prosperity="500">
+      <Town id="castle_comp_gradina" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_bulgaria" wait_mesh="wait_bulgaria_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
           <Building id="building_castle_fortifications" level="2" />
           <Building id="building_castle_barracks" level="1" />
@@ -11337,9 +11337,9 @@
       <Location id="prison" scene_name="vlandia_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_gradina_osijek" name="{=castle_gradina_osijek_name}Osijek" posX="621.316" posY="1023.68" culture="Culture.bosnia" text="{=castle_gradina_osijek_text}Osijek text...">
+  <Settlement id="castle_gradina_osijek" name="{=castle_gradina_osijek_name}Macho" posX="621.316" posY="1023.68" culture="Culture.bulgaria" text="{=castle_gradina_osijek_text}Macho text...">
     <Components>
-      <Village id="castle_comp_gradina_osijek" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.castle_gradina" background_crop_position="0.0" background_mesh="gui_bg_village_bosnia" wait_mesh="wait_bosnia_village" castle_background_mesh="gui_bg_castle_bosnia" />
+      <Village id="castle_comp_gradina_osijek" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.castle_gradina" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_011" />
@@ -11363,7 +11363,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_banjaluka" name="{=castle_banjaluka_name}Banja Luka Castle" owner="Faction.clan_bosnia_2" posX="591.215" posY="1009.15" culture="Culture.bosnia" gate_posX="592.1893" gate_posY="1010.618">
+  <Settlement id="castle_banjaluka" name="{=castle_banjaluka_name}Castrum Vrbas" owner="Faction.clan_bosnia_2" posX="591.215" posY="1009.15" culture="Culture.bosnia" gate_posX="592.1893" gate_posY="1010.618">
     <Components>
       <Town id="castle_comp_banjaluka" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_bosnia" wait_mesh="wait_bosnia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -11387,9 +11387,9 @@
       <Location id="prison" scene_name="vlandia_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_banjaluka_tuzla" name="{=castle_banjaluka_tuzla_name}Tuzla" posX="630.222" posY="1011.973" culture="Culture.bosnia" text="{=castle_banjaluka_tuzla_text}Tuzla text...">
+    <Settlement id="castle_banjaluka_tuzla" name="{=castle_banjaluka_tuzla_name}Soli" posX="630.222" posY="1011.973" culture="Culture.bulgaria" text="{=castle_banjaluka_tuzla_text}Soli text...">
     <Components>
-      <Village id="castle_comp_banjaluka_tuzla" village_type="VillageType.salt_mine" hearth="300" bound="Settlement.castle_banjaluka" background_crop_position="0.0" background_mesh="gui_bg_village_bosnia" wait_mesh="wait_bosnia_village" castle_background_mesh="gui_bg_castle_bosnia" />
+            <Village id="castle_comp_banjaluka_tuzla" village_type="VillageType.salt_mine" hearth="300" bound="Settlement.town_belgrade" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_011" />
@@ -11424,7 +11424,7 @@
       <Location id="prison" scene_name="vlandia_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_borac_sarajevo" name="{=castle_borac_sarajevo_name}Szarajevo" posX="622.48" posY="1000.218" culture="Culture.bosnia" text="{=castle_borac_sarajevo_text}Sarajevo text...">
+  <Settlement id="castle_borac_sarajevo" name="{=castle_borac_sarajevo_name}Vrhbosna" posX="622.48" posY="1000.218" culture="Culture.bosnia" text="{=castle_borac_sarajevo_text}Vrhbosna text...">
     <Components>
       <Village id="castle_comp_borac_sarajevo" village_type="VillageType.vineyard" hearth="500" bound="Settlement.castle_borac" background_crop_position="0.0" background_mesh="gui_bg_village_bosnia" wait_mesh="wait_bosnia_village" castle_background_mesh="gui_bg_castle_bosnia" />
     </Components>
@@ -11489,9 +11489,9 @@
   </Settlement>
   <!--endregion -->
   <!--region Kingdom of Serbia : Serbian culture -->
-  <Settlement id="town_belgrade" name="{=town_belgrade_name}Beograd" owner="Faction.clan_serbia_1" posX="656.822" posY="1013.252" culture="Culture.serbia" gate_posX="658.697" gate_posY="1010.168" text="{=town_belgrade_text}Belgrade text...">
+  <Settlement id="town_belgrade" name="{=town_belgrade_name}Nándorfehérvár" owner="Faction.clan_hungary_7" posX="656.822" posY="1013.252" culture="Culture.bulgaria" gate_posX="658.697" gate_posY="1010.168" text="{=town_belgrade_text}Belgrade text...">
     <Components>
-      <Town id="town_comp_belgrade" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.208" prosperity="2500">
+      <Town id="town_comp_belgrade" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_bulgaria" wait_mesh="wait_bulgaria_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
           <Building id="building_settlement_fortifications" level="3" />
           <Building id="building_settlement_barracks" level="2" />
@@ -11525,9 +11525,9 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_belgrade_pozarevac" name="{=town_belgrade_pozarevac_name}Pozarevac" posX="677.59" posY="1011.387" culture="Culture.serbia" text="{=town_belgrade_pozarevac_text}Pozarevac text...">
+    <Settlement id="town_belgrade_pozarevac" name="{=town_belgrade_pozarevac_name}Branicevo" posX="677.59" posY="1011.387" culture="Culture.bulgaria" text="{=town_belgrade_pozarevac_text}Branicevo text...">
     <Components>
-      <Village id="town_comp_belgrade_pozarevac" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_belgrade" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
+            <Village id="town_comp_belgrade_pozarevac" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_belgrade" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_011" />
@@ -11538,9 +11538,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_belgrade_valjevo" name="{=town_belgrade_valjevo_name}Valjevo" posX="646.699" posY="1003.558" culture="Culture.serbia" text="{=town_belgrade_valjevo_text}Valjevo text...">
+    <Settlement id="town_belgrade_valjevo" name="{=town_belgrade_valjevo_name}Valjevo" posX="646.699" posY="1003.558" culture="Culture.bulgaria" text="{=town_belgrade_valjevo_text}Valjevo text...">
     <Components>
-      <Village id="town_comp_belgrade_valjevo" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_belgrade" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
+            <Village id="town_comp_belgrade_valjevo" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_belgrade" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_011" />
@@ -11551,9 +11551,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_belgrade_sirmium" name="{=town_belgrade_sirmium_name}Sirmium" posX="646.258" posY="1018.925" culture="Culture.serbia" text="{=town_belgrade_sirmium_text}Sirmium text...">
+  <Settlement id="town_belgrade_sirmium" name="{=town_belgrade_sirmium_name}Szávaszentdemeter" posX="646.258" posY="1018.925" culture="Culture.hungarian" text="{=town_belgrade_sirmium_text}Szávaszentdemeter text...">
     <Components>
-      <Village id="town_comp_belgrade_sirmium" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_belgrade" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
+      <Village id="town_comp_belgrade_sirmium" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_belgrade" background_crop_position="0.0" background_mesh="gui_bg_village_hungarian" wait_mesh="wait_hungarian_village" castle_background_mesh="gui_bg_castle_hungarian" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_011" />
@@ -11564,9 +11564,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_nis" name="{=castle_nis_name}Nis Castle" owner="Faction.clan_serbia_2" posX="697.369" posY="987.459" culture="Culture.serbia" gate_posX="697.9227" gate_posY="985.9252">
+  <Settlement id="castle_nis" name="{=castle_nis_name}Nis Castle" owner="Faction.clan_nicaea_1" posX="697.369" posY="987.459" culture="Culture.bulgaria" gate_posX="697.9227" gate_posY="985.9252">
     <Components>
-      <Town id="castle_comp_nis" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.908" prosperity="500">
+      <Town id="castle_comp_nis" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_bulgaria" wait_mesh="wait_bulgaria_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
           <Building id="building_castle_fortifications" level="2" />
           <Building id="building_castle_barracks" level="1" />
@@ -11588,9 +11588,9 @@
       <Location id="prison" scene_name="empire_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_nis_ratiaria" name="{=castle_nis_ratiaria_name}Ratiaria" posX="708.035" posY="1001.513" culture="Culture.serbia" text="{=castle_nis_ratiaria_text}Ratiaria text...">
+    <Settlement id="castle_nis_ratiaria" name="{=castle_nis_ratiaria_name}Lom" posX="708.035" posY="1001.513" culture="Culture.bulgaria" text="{=castle_nis_ratiaria_text}Lom text...">
     <Components>
-      <Village id="castle_comp_nis_ratiaria" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_nis" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
+            <Village id="castle_comp_ram_ratiaria" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_ram" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -11601,9 +11601,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_nis_belebousda" name="{=castle_nis_belebousda_name}Belebousda" posX="710.011" posY="965.433" culture="Culture.serbia" text="{=castle_nis_belebousda_text}Belebousda text...">
+    <Settlement id="castle_nis_belebousda" name="{=castle_nis_belebousda_name}Melnik" posX="710.011" posY="965.433" culture="Culture.bulgaria" text="{=castle_nis_belebousda_text}Melnik text...">
     <Components>
-      <Village id="castle_comp_nis_belebousda" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.castle_nis" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
+            <Village id="castle_comp_nis_belebousda" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.castle_nis" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -11614,7 +11614,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ras" name="{=castle_ras_name}Ras Castle" owner="Faction.clan_serbia_3" posX="662.668" posY="978.41" culture="Culture.serbia" gate_posX="662.2112" gate_posY="978.7232">
+  <Settlement id="castle_ras" name="{=castle_ras_name}Ras Castle" owner="Faction.clan_serbia_1" posX="662.668" posY="978.41" culture="Culture.serbia" gate_posX="662.2112" gate_posY="978.7232">
     <Components>
       <Town id="castle_comp_ras" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -11664,7 +11664,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_shkoder" name="{=castle_shkoder_name}Rozafa Castle" owner="Faction.clan_serbia_4" posX="649.138" posY="947.942" culture="Culture.serbia" gate_posX="648.5444" gate_posY="949.8573">
+  <Settlement id="castle_shkoder" name="{=castle_shkoder_name}Rozafa Castle" owner="Faction.clan_serbia_1" posX="649.138" posY="947.942" culture="Culture.serbia" gate_posX="648.5444" gate_posY="949.8573">
     <Components>
       <Town id="castle_comp_shkoder" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -11688,9 +11688,9 @@
       <Location id="prison" scene_name="empire_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="town_dyrrhacium_tirana" name="{=town_dyrrhacium_tirana_name}Tirana" posX="650.459" posY="934.403" culture="Culture.serbia" text="{=ctown_dyrrhacium_tirana_text}Tirana text...">
+  <Settlement id="town_dyrrhacium_tirana" name="{=town_dyrrhacium_tirana_name}Tirana" posX="650.459" posY="934.403" culture="Culture.greek" text="{=ctown_dyrrhacium_tirana_text}Tirana text...">
     <Components>
-      <Village id="town_comp_dyrrhacium_tirana" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.castle_shkoder" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
+      <Village id="town_comp_dyrrhacium_tirana" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_dyrrhacium" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -11753,7 +11753,7 @@
   </Settlement>
   <Settlement id="castle_kotor_niksic" name="{=castle_kotor_niksic_name}Niksic" posX="647.45" posY="967.697" culture="Culture.serbia" text="{=castle_kotor_niksic_text}Niksic text...">
     <Components>
-      <Village id="castle_comp_kotor_niksic" village_type="VillageType.wheat_farm" hearth="500" bound="Settlement.castle_kotor" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
+      <Village id="castle_comp_kotor_niksic" village_type="VillageType.wheat_farm" hearth="500" bound="Settlement.castle_shkoder" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_e" />
@@ -11764,9 +11764,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ram" name="{=castle_ram_name}Ram Castle" owner="Faction.clan_serbia_1" posX="699.035" posY="1015.361" culture="Culture.serbia" gate_posX="698.6048" gate_posY="1014.697">
+  <Settlement id="castle_ram" name="{=castle_ram_name}Bdin Castle" owner="Faction.clan_hungary_7" posX="699.035" posY="1015.361" culture="Culture.bulgaria" gate_posX="698.6048" gate_posY="1014.697">
     <Components>
-      <Town id="castle_comp_ram" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.908" prosperity="500">
+      <Town id="castle_comp_ram" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_bulgaria" wait_mesh="wait_bulgaria_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
           <Building id="building_castle_fortifications" level="2" />
           <Building id="building_castle_barracks" level="1" />
@@ -11788,9 +11788,9 @@
       <Location id="prison" scene_name="vlandia_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_ram_jagodina" name="{=castle_ram_jagodina_name}Jagodina" posX="688.397" posY="994.993" culture="Culture.serbia" text="{=castle_ram_jagodina_text}Jagodina text...">
+    <Settlement id="castle_ram_jagodina" name="{=castle_ram_jagodina_name}Ravno" posX="688.397" posY="994.993" culture="Culture.bulgaria" text="{=castle_ram_jagodina_text}Ravno text...">
     <Components>
-      <Village id="castle_comp_ram_jagodina" village_type="VillageType.cattle_farm" hearth="300" bound="Settlement.castle_ram" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
+            <Village id="castle_comp_nis_jagodina" village_type="VillageType.cattle_farm" hearth="300" bound="Settlement.castle_ram" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_011" />
@@ -11990,7 +11990,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_fehervar" name="{=town_fehervar_name}Székesfehérvár" owner="Faction.clan_hungary_1" posX="612.957" posY="1062.631" culture="Culture.hungarian" gate_posX="613.4214" gate_posY="1062.276" text="{=town_fehervar_text}Fehervar text...">
+  <Settlement id="town_fehervar" name="{=town_fehervar_name}Fehérvár" owner="Faction.clan_hungary_1" posX="612.957" posY="1062.631" culture="Culture.hungarian" gate_posX="613.4214" gate_posY="1062.276" text="{=town_fehervar_text}Fehervar text...">
     <Components>
       <Town id="town_comp_fehervar" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_hungarian" wait_mesh="wait_hungarian_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -12911,9 +12911,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kronstadt" name="{=castle_kronstadt_name}Kronstadt Castle" owner="Faction.clan_hungary_5" posX="751.844" posY="1033.557" culture="Culture.hungarian" gate_posX="751.5903" gate_posY="1032.12">
+  <Settlement id="castle_kronstadt" name="{=castle_kronstadt_name}Longo Campo Castle" owner="Faction.clan_bulgaria_3" posX="751.844" posY="1033.557" culture="Culture.bulgaria" gate_posX="751.5903" gate_posY="1032.12">
     <Components>
-      <Town id="castle_comp_kronstadt" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_hungarian" wait_mesh="wait_hungarian_town" gate_rotation="0.908" prosperity="500">
+      <Town id="castle_comp_kronstadt" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_bulgaria" wait_mesh="wait_bulgaria_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
           <Building id="building_castle_fortifications" level="2" />
           <Building id="building_castle_barracks" level="1" />
@@ -12935,9 +12935,9 @@
       <Location id="prison" scene_name="vlandia_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_kronstadt_prazsmar" name="{=castle_kronstadt_prazsmar_name}Prazsmar" posX="758.566" posY="1035.91" culture="Culture.hungarian" text="{=castle_kronstadt_prazsmar_text}Prazsmar text...">
+  <Settlement id="castle_kronstadt_prazsmar" name="{=castle_kronstadt_prazsmar_name}Rucar" posX="758.566" posY="1035.91" culture="Culture.bulgaria" text="{=castle_kronstadt_prazsmar_text}Prazsmar text...">
     <Components>
-      <Village id="castle_comp_kronstadt_prazsmar" village_type="VillageType.lumberjack" hearth="300" bound="Settlement.castle_kronstadt" background_crop_position="0.0" background_mesh="gui_bg_village_hungarian" wait_mesh="wait_hungarian_village" castle_background_mesh="gui_bg_castle_hungarian" />
+      <Village id="castle_comp_kronstadt_prazsmar" village_type="VillageType.lumberjack" hearth="300" bound="Settlement.castle_kronstadt" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="bog_village_002" />
@@ -12950,22 +12950,22 @@
   </Settlement>
   <!--endregion -->
   <!--region Kingdom of Bulgaria : Bulgarian culture-->
-  <Settlement id="town_sredets" name="{=town_sredets_name}Sofia" owner="Faction.clan_bulgaria_1" posX="723.065" posY="981.754" culture="Culture.bulgaria" gate_posX="724.03" gate_posY="978.7584" text="{=town_sredets_text}Sredets text...">
+  <Settlement id="town_sredets" name="{=town_sredets_name}Tarnovgrad" owner="Faction.clan_bulgaria_1" posX="723.065" posY="981.754" culture="Culture.bulgaria" gate_posX="724.03" gate_posY="978.7584" text="{=town_sredets_text}Tarnovgrad text...">
     <Components>
       <Town id="town_comp_sredets" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_bulgaria" wait_mesh="wait_italian_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
           <Building id="building_settlement_fortifications" level="3" />
-          <Building id="building_settlement_barracks" level="2" />
-          <Building id="building_settlement_training_fields" level="1" />
-          <Building id="building_settlement_guard_house" level="0" />
-          <Building id="building_settlement_siege_workshop" level="0" />
-          <Building id="building_settlement_tax_office" level="1" />
-          <Building id="building_settlement_marketplace" level="1" />
-          <Building id="building_settlement_warehouse" level="1" />
-          <Building id="building_settlement_mason" level="2" />
-          <Building id="building_settlement_waterworks" level="1" />
-          <Building id="building_settlement_courthouse" level="0" />
-          <Building id="building_settlement_roads_and_paths" level="2" />
+          <Building id="building_settlement_barracks" level="3" />
+          <Building id="building_settlement_training_fields" level="3" />
+          <Building id="building_settlement_guard_house" level="3" />
+          <Building id="building_settlement_siege_workshop" level="3" />
+          <Building id="building_settlement_tax_office" level="3" />
+          <Building id="building_settlement_marketplace" level="3" />
+          <Building id="building_settlement_warehouse" level="3" />
+          <Building id="building_settlement_mason" level="3" />
+          <Building id="building_settlement_waterworks" level="3" />
+          <Building id="building_settlement_courthouse" level="3" />
+          <Building id="building_settlement_roads_and_paths" level="3" />
         </Buildings>
       </Town>
     </Components>
@@ -13012,7 +13012,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_sredets_osescus" name="{=town_sredets_osescus_name}Osescus" posX="738.167" posY="1000.969" culture="Culture.bulgaria" text="{=town_sredets_osescus_text}Osescus text...">
+  <Settlement id="town_sredets_osescus" name="{=town_sredets_osescus_name}Pleven" posX="738.167" posY="1000.969" culture="Culture.bulgaria" text="{=town_sredets_osescus_text}Pleven text...">
     <Components>
       <Village id="town_comp_sredets_osescus" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_sredets" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
@@ -13025,7 +13025,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_bacau" name="{=town_bacau_name}Bacau" owner="Faction.clan_bulgaria_3" posX="779.648" posY="1065.578" culture="Culture.bulgaria" gate_posX="782.8663" gate_posY="1066.217" text="{=town_bacau_text}Bacau text...">
+  <Settlement id="town_bacau" name="{=town_bacau_name}Bacau" owner="Faction.clan_mongolian_1" posX="779.648" posY="1065.578" culture="Culture.bulgaria" gate_posX="782.8663" gate_posY="1066.217" text="{=town_bacau_text}Bacau text...">
     <Components>
       <Town id="town_comp_bacau" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_bulgaria" wait_mesh="wait_bulgaria_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -13100,7 +13100,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_balti" name="{=town_balti_name}Balti" owner="Faction.clan_bulgaria_1" posX="815.728" posY="1092.171" culture="Culture.bulgaria" gate_posX="817.3249" gate_posY="1090.805" text="{=town_balti_text}Balti text...">
+  <Settlement id="town_balti" name="{=town_balti_name}Balti" owner="Faction.clan_mongolian_1" posX="815.728" posY="1092.171" culture="Culture.bulgaria" gate_posX="817.3249" gate_posY="1090.805" text="{=town_balti_text}Balti text...">
     <Components>
       <Town id="town_comp_balti" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_bulgaria" wait_mesh="wait_bulgaria_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -13200,7 +13200,7 @@
   </Settlement>
   <Settlement id="town_kellia_palada" name="{=town_kellia_palada_name}Palada" posX="813.966" posY="1065.983" culture="Culture.bulgaria" text="{=town_kellia_palada_text}Palada text...">
     <Components>
-      <Village id="town_comp_kellia_palada" village_type="VillageType.steppe_horse_ranch" hearth="400" bound="Settlement.town_kellia" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
+      <Village id="town_comp_kellia_palada" village_type="VillageType.steppe_horse_ranch" hearth="400" bound="Settlement.town_mauricastro" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_t" />
@@ -13273,7 +13273,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_pitesti" name="{=town_pitesti_name}Pitesti" owner="Faction.clan_bulgaria_1" posX="741.481" posY="1027.387" culture="Culture.bulgaria" gate_posX="742.295" gate_posY="1024.86" text="{=town_pitesti_text}Pitesti text...">
+  <Settlement id="town_pitesti" name="{=town_pitesti_name}Pitesti" owner="Faction.clan_bulgaria_3" posX="741.481" posY="1027.387" culture="Culture.bulgaria" gate_posX="742.295" gate_posY="1024.86" text="{=town_pitesti_text}Pitesti text...">
     <Components>
       <Town id="town_comp_pitesti" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_bulgaria" wait_mesh="wait_bulgaria_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -13335,7 +13335,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_mauricastro" name="{=town_mauricastro_name}Mauricastro" owner="Faction.clan_bulgaria_1" posX="846.258" posY="1075.045" culture="Culture.bulgaria" gate_posX="844.9427" gate_posY="1073.673" text="{=town_mauricastro_text}Mauricastro text...">
+  <Settlement id="town_mauricastro" name="{=town_mauricastro_name}Mauricastro" owner="Faction.clan_mongolian_1" posX="846.258" posY="1075.045" culture="Culture.bulgaria" gate_posX="844.9427" gate_posY="1073.673" text="{=town_mauricastro_text}Mauricastro text...">
     <Components>
       <Town id="town_comp_mauricastro" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_bulgaria" wait_mesh="wait_bulgaria_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -13397,19 +13397,19 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_varna" name="{=castle_varna_name}Varna Castle" owner="Faction.clan_bulgaria_2" posX="810.579" posY="1005.123" culture="Culture.bulgaria" gate_posX="805.7422" gate_posY="1005.129">
+  <Settlement id="castle_varna" name="{=castle_varna_name}Varna Castle" owner="Faction.clan_bulgaria_rebels_1" posX="810.579" posY="1005.123" culture="Culture.bulgaria" gate_posX="805.7422" gate_posY="1005.129">
     <Components>
       <Town id="castle_comp_varna" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_bulgaria" wait_mesh="wait_bulgaria_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
-          <Building id="building_castle_fortifications" level="2" />
-          <Building id="building_castle_barracks" level="1" />
+          <Building id="building_castle_fortifications" level="3" />
+          <Building id="building_castle_barracks" level="3" />
           <Building id="building_castle_training_fields" level="1" />
           <Building id="building_castle_guard_house" level="0" />
-          <Building id="building_castle_siege_workshop" level="1" />
+          <Building id="building_castle_siege_workshop" level="3" />
           <Building id="building_castle_castallans_office" level="1" />
-          <Building id="building_castle_granary" level="1" />
+          <Building id="building_castle_granary" level="3" />
           <Building id="building_castle_craftmans_quarters" level="1" />
-          <Building id="building_castle_farmlands" level="2" />
+          <Building id="building_castle_farmlands" level="3" />
           <Building id="building_castle_mason" level="1" />
           <Building id="building_castle_roads_and_paths" level="3" />
         </Buildings>
@@ -13447,7 +13447,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_varna_develtos" name="{=castle_varna_develtos_name}Develtos" posX="798.841" posY="984.314" culture="Culture.bulgaria" text="{=castle_varna_develtos_text}Develtos text...">
+  <Settlement id="castle_varna_develtos" name="{=castle_varna_develtos_name}Rusokastro" posX="798.841" posY="984.314" culture="Culture.bulgaria" text="{=castle_varna_develtos_text}Rusokastro text...">
     <Components>
       <Village id="castle_comp_varna_develtos" village_type="VillageType.clay_mine" hearth="400" bound="Settlement.castle_varna" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
@@ -13460,9 +13460,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_varna_nicopol" name="{=castle_varna_nicopol_name}Nikopol" posX="766.179" posY="992.946" culture="Culture.bulgaria" text="{=castle_varna_nicopol_text}Nikopol text...">
+  <Settlement id="castle_varna_nicopol" name="{=castle_varna_nicopol_name}Nikiupoli" posX="766.179" posY="992.946" culture="Culture.bulgaria" text="{=castle_varna_nicopol_text}Nikiupoli text...">
     <Components>
-      <Village id="castle_comp_varna_nicopol" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_varna" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
+      <Village id="castle_comp_varna_nicopol" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.town_sredets" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -17615,7 +17615,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_hamedan" name="{=town_hamedan_name}Hamedan" owner="Faction.clan_ilkhanate_5" posX="1240.997" posY="862.045" culture="Culture.ilkhanid" gate_posX="1242.985" gate_posY="859.8669" text="{=town_hamedan_text}Hamedan text...">
+  <Settlement id="town_hamedan" name="{=town_hamedan_name}Hamedan" owner="Faction.clan_ilkhanate_2" posX="1240.997" posY="862.045" culture="Culture.ilkhanid" gate_posX="1242.985" gate_posY="859.8669" text="{=town_hamedan_text}Hamedan text...">
     <Components>
       <Town id="town_comp_hamedan" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -17690,7 +17690,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_erzincan" name="{=town_erzincan_name}Erzincan" owner="Faction.clan_ilkhanate_5" posX="1038.104" posY="937.726" culture="Culture.ilkhanid" gate_posX="1041.133" gate_posY="937.3294" text="{=town_erzincan_text}Erzincan text...">
+  <Settlement id="town_erzincan" name="{=town_erzincan_name}Erzincan" owner="Faction.clan_ilkhanate_2" posX="1038.104" posY="937.726" culture="Culture.ilkhanid" gate_posX="1041.133" gate_posY="937.3294" text="{=town_erzincan_text}Erzincan text...">
     <Components>
       <Town id="town_comp_erzincan" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -17752,7 +17752,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_erzurum" name="{=castle_erzurum_name}Erzurum Castle" owner="Faction.clan_ilkhanate_5" posX="1080.761" posY="962.031" culture="Culture.ilkhanid" gate_posX="1080.279" gate_posY="963.7737">
+  <Settlement id="castle_erzurum" name="{=castle_erzurum_name}Erzurum Castle" owner="Faction.clan_ilkhanate_1" posX="1080.761" posY="962.031" culture="Culture.ilkhanid" gate_posX="1080.279" gate_posY="963.7737">
     <Components>
       <Town id="castle_comp_erzurum" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -17928,7 +17928,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Golden Horde : Mongol culture-->
-  <Settlement id="town_basra" name="{=town_basra_name}Basra" owner="Faction.clan_mongolian_1" posX="1245.705" posY="772.181" culture="Culture.mongolian" gate_posX="1244.396" gate_posY="770.762" text="{=town_basra_text}Basra text...">
+  <Settlement id="town_basra" name="{=town_basra_name}Basra" owner="Faction.clan_mongolian_3" posX="1245.705" posY="772.181" culture="Culture.mongolian" gate_posX="1244.396" gate_posY="770.762" text="{=town_basra_text}Basra text...">
     <Components>
       <Town id="town_comp_basra" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_mongolian" wait_mesh="wait_mongolian_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -18629,9 +18629,9 @@
   </Settlement>
   <!-- endregion -->
   <!-- region Latin Empire : Latin culture-->
-  <Settlement id="town_adrianople" name="{=town_adrianople_name}Adrianople" owner="Faction.clan_latinempire_2" posX="787.887" posY="969.177" culture="Culture.latin" gate_posX="790.5724" gate_posY="973.1882" text="{=town_adrianople_text}Adrianople text...">
+  <Settlement id="town_adrianople" name="{=town_adrianople_name}Adrianople" owner="Faction.clan_nicaea_1" posX="787.887" posY="969.177" culture="Culture.greek" gate_posX="790.5724" gate_posY="973.1882" text="{=town_adrianople_text}Adrianople text...">
     <Components>
-      <Town id="town_comp_adrianople" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_latin" wait_mesh="wait_latin_town" gate_rotation="0.208" prosperity="2500">
+      <Town id="town_comp_adrianople" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
           <Building id="building_settlement_fortifications" level="3" />
           <Building id="building_settlement_barracks" level="2" />
@@ -18665,9 +18665,9 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_adrianople_mosynopolis" name="{=town_adrianople_mosynopolis_name}Mosynopolis" posX="762.637" posY="951.711" culture="Culture.latin" text="{=town_adrianople_mosynopolis_text}Mosynopolis text...">
+  <Settlement id="town_adrianople_mosynopolis" name="{=town_adrianople_mosynopolis_name}Mosynopolis" posX="762.637" posY="951.711" culture="Culture.greek" text="{=town_adrianople_mosynopolis_text}Mosynopolis text...">
     <Components>
-      <Village id="town_comp_adrianople_mosynopolis" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.town_adrianople" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_adrianople_mosynopolis" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.town_adrianople" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -18678,9 +18678,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_adrianople_irenopolis" name="{=town_adrianople_irenopolis_name}Boruj" posX="769.749" posY="978.202" culture="Culture.latin" text="{=town_adrianople_irenopolis_text}Irenopolis text...">
+  <Settlement id="town_adrianople_irenopolis" name="{=town_adrianople_irenopolis_name}Boruj" posX="769.749" posY="978.202" culture="Culture.bulgaria" text="{=town_adrianople_irenopolis_text}Irenopolis text...">
     <Components>
-      <Village id="town_comp_adrianople_irenopolis" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.town_adrianople" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_adrianople_irenopolis" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.town_sredets" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -18691,9 +18691,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_adrianople_christoupolis" name="{=town_adrianople_christoupolis_name}Christoupolis" posX="742.655" posY="947.416" culture="Culture.latin" text="{=town_adrianople_christoupolis_text}Christoupolis text...">
+  <Settlement id="town_adrianople_christoupolis" name="{=town_adrianople_christoupolis_name}Christoupolis" posX="742.655" posY="947.416" culture="Culture.greek" text="{=town_adrianople_christoupolis_text}Christoupolis text...">
     <Components>
-      <Village id="town_comp_adrianople_christoupolis" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_adrianople" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_adrianople_christoupolis" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_adrianople" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -18704,21 +18704,21 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_constantinople" name="{=town_constantinople_name}Constantinople" owner="Faction.clan_latinempire_1" posX="830.421" posY="957.215" culture="Culture.latin" gate_posX="827.9117" gate_posY="959.0455" text="{=town_constantinople_text}Constantinople text...">
+  <Settlement id="town_constantinople" name="{=town_constantinople_name}Constantinople" owner="Faction.clan_latinempire_1" posX="830.421" posY="957.215" culture="Culture.greek" gate_posX="827.9117" gate_posY="959.0455" text="{=town_constantinople_text}Constantinople text...">
     <Components>
-      <Town id="town_comp_constantinople" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_latin" wait_mesh="wait_latin_town" gate_rotation="0.208" prosperity="4000">
+      <Town id="town_comp_constantinople" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="4000">
         <Buildings>
           <Building id="building_settlement_fortifications" level="3" />
           <Building id="building_settlement_barracks" level="2" />
-          <Building id="building_settlement_training_fields" level="1" />
-          <Building id="building_settlement_guard_house" level="0" />
-          <Building id="building_settlement_siege_workshop" level="0" />
-          <Building id="building_settlement_tax_office" level="1" />
-          <Building id="building_settlement_marketplace" level="1" />
-          <Building id="building_settlement_warehouse" level="1" />
+          <Building id="building_settlement_training_fields" level="2" />
+          <Building id="building_settlement_guard_house" level="2" />
+          <Building id="building_settlement_siege_workshop" level="3" />
+          <Building id="building_settlement_tax_office" level="2" />
+          <Building id="building_settlement_marketplace" level="2" />
+          <Building id="building_settlement_warehouse" level="2" />
           <Building id="building_settlement_mason" level="2" />
-          <Building id="building_settlement_waterworks" level="1" />
-          <Building id="building_settlement_courthouse" level="0" />
+          <Building id="building_settlement_waterworks" level="2" />
+          <Building id="building_settlement_courthouse" level="2" />
           <Building id="building_settlement_roads_and_paths" level="2" />
         </Buildings>
       </Town>
@@ -18740,9 +18740,9 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_constantinople_bizye" name="{=town_constantinople_bizye_name}Bizye" posX="809.03" posY="965.144" culture="Culture.latin" text="{=town_constantinople_bizye_text}Bizye text...">
+  <Settlement id="town_constantinople_bizye" name="{=town_constantinople_bizye_name}Viza" posX="809.03" posY="965.144" culture="Culture.greek" text="{=town_constantinople_bizye_text}Viza text...">
     <Components>
-      <Village id="town_comp_constantinople_bizye" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_constantinople" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_constantinople_bizye" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_constantinople" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_002" />
@@ -18753,9 +18753,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_constantinople_heracleia" name="{=town_constantinople_heracleia_name}Heracleia" posX="811.83" posY="955.691" culture="Culture.latin" text="{=town_constantinople_heracleia_text}Heracleia text...">
+  <Settlement id="town_constantinople_heracleia" name="{=town_constantinople_heracleia_name}Heracleia" posX="811.83" posY="955.691" culture="Culture.greek" text="{=town_constantinople_heracleia_text}Heracleia text...">
     <Components>
-      <Village id="town_comp_constantinople_heracleia" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_constantinople" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_constantinople_heracleia" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_constantinople" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_v" />
@@ -18766,9 +18766,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_constantinople_kypsela" name="{=town_constantinople_kypsela_name}Kypsela" posX="787.989" posY="946.669" culture="Culture.latin" text="{=town_constantinople_kypsela_text}Kypsela text...">
+  <Settlement id="town_constantinople_kypsela" name="{=town_constantinople_kypsela_name}Kypsela" posX="787.989" posY="946.669" culture="Culture.greek" text="{=town_constantinople_kypsela_text}Kypsela text...">
     <Components>
-      <Village id="town_comp_constantinople_kypsela" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_constantinople" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_constantinople_kypsela" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_constantinople" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_v" />
@@ -18779,22 +18779,22 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_thessalonica" name="{=town_thessalonica_name}Thessalonica" owner="Faction.clan_latinempire_1" posX="712.321" posY="936.479" culture="Culture.latin" gate_posX="716.0897" gate_posY="936.4586" text="{=town_thessalonica_text}Thessalonica text...">
+  <Settlement id="town_thessalonica" name="{=town_thessalonica_name}Thessaloniki" owner="Faction.clan_nicaea_1" posX="712.321" posY="936.479" culture="Culture.greek" gate_posX="716.0897" gate_posY="936.4586" text="{=town_thessalonica_text}Thessaloniki text...">
     <Components>
-      <Town id="town_comp_thessalonica" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_latin" wait_mesh="wait_latin_town" gate_rotation="0.208" prosperity="2500">
+      <Town id="town_comp_thessalonica" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
           <Building id="building_settlement_fortifications" level="3" />
-          <Building id="building_settlement_barracks" level="2" />
-          <Building id="building_settlement_training_fields" level="1" />
-          <Building id="building_settlement_guard_house" level="0" />
-          <Building id="building_settlement_siege_workshop" level="0" />
-          <Building id="building_settlement_tax_office" level="1" />
-          <Building id="building_settlement_marketplace" level="1" />
-          <Building id="building_settlement_warehouse" level="1" />
-          <Building id="building_settlement_mason" level="2" />
-          <Building id="building_settlement_waterworks" level="1" />
-          <Building id="building_settlement_courthouse" level="0" />
-          <Building id="building_settlement_roads_and_paths" level="2" />
+          <Building id="building_settlement_barracks" level="3" />
+          <Building id="building_settlement_training_fields" level="3" />
+          <Building id="building_settlement_guard_house" level="3" />
+          <Building id="building_settlement_siege_workshop" level="3" />
+          <Building id="building_settlement_tax_office" level="3" />
+          <Building id="building_settlement_marketplace" level="3" />
+          <Building id="building_settlement_warehouse" level="3" />
+          <Building id="building_settlement_mason" level="3" />
+          <Building id="building_settlement_waterworks" level="3" />
+          <Building id="building_settlement_courthouse" level="3" />
+          <Building id="building_settlement_roads_and_paths" level="3" />
         </Buildings>
       </Town>
     </Components>
@@ -18815,9 +18815,9 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_thessalonica_pydna" name="{=town_thessalonica_pydna_name}Pydna" posX="705.978" posY="925.547" culture="Culture.latin" text="{=town_thessalonica_pydna_text}Pydna text...">
+  <Settlement id="town_thessalonica_pydna" name="{=town_thessalonica_pydna_name}Pydna" posX="705.978" posY="925.547" culture="Culture.greek" text="{=town_thessalonica_pydna_text}Pydna text...">
     <Components>
-      <Village id="town_comp_thessalonica_pydna" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.town_thessalonica" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_thessalonica_pydna" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.town_thessalonica" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_v" />
@@ -18828,9 +18828,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_thessalonica_serrae" name="{=town_thessalonica_serrae_name}Serrae" posX="721.193" posY="948.826" culture="Culture.latin" text="{=town_thessalonica_serrae_text}Serrae text...">
+  <Settlement id="town_thessalonica_serrae" name="{=town_thessalonica_serrae_name}Serrae" posX="721.193" posY="948.826" culture="Culture.bulgaria" text="{=town_thessalonica_serrae_text}Serrae text...">
     <Components>
-      <Village id="town_comp_thessalonica_serrae" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_thessalonica" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_thessalonica_serrae" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_thessalonica" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -18841,9 +18841,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_thessalonica_skoupoi" name="{=town_thessalonica_skoupoi_name}Skoupi" posX="686.168" posY="951.631" culture="Culture.latin" text="{=town_thessalonica_skoupoi_text}Skoupi text...">
+  <Settlement id="town_thessalonica_skoupoi" name="{=town_thessalonica_skoupoi_name}Skopia" posX="686.168" posY="951.631" culture="Culture.bulgaria" text="{=town_thessalonica_skoupoi_text}Skoupi text...">
     <Components>
-      <Village id="town_comp_thessalonica_skoupoi" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_thessalonica" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_thessalonica_skoupoi" village_type="VillageType.iron_mine" hearth="100" bound="Settlement.town_thessalonica" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -18856,9 +18856,9 @@
   </Settlement>
   <!--endregion -->
   <!-- region Empire of Trebizond : Latin culture-->
-  <Settlement id="castle_trebizond" name="{=castle_trebizond_name}Trebizond Castle" owner="Faction.clan_latinempire_3" posX="1052.668" posY="984.243" culture="Culture.latin" gate_posX="1055.407" gate_posY="983.5085">
+  <Settlement id="castle_trebizond" name="{=castle_trebizond_name}Trebizond Castle" owner="Faction.clan_ilkhanate_5" posX="1052.668" posY="984.243" culture="Culture.greek" gate_posX="1055.407" gate_posY="983.5085">
     <Components>
-      <Town id="castle_comp_trebizond" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_latin" wait_mesh="wait_latin_town" gate_rotation="0.908" prosperity="500">
+      <Town id="castle_comp_trebizond" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
           <Building id="building_castle_fortifications" level="2" />
           <Building id="building_castle_barracks" level="1" />
@@ -18880,9 +18880,9 @@
       <Location id="prison" scene_name="empire_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_trebizond_rize" name="{=castle_trebizond_rize_name}Rize" posX="1065.386" posY="987.737" culture="Culture.latin" text="{=castle_trebizond_rize_text}Rize text...">
+  <Settlement id="castle_trebizond_rize" name="{=castle_trebizond_rize_name}Rize" posX="1065.386" posY="987.737" culture="Culture.greek" text="{=castle_trebizond_rize_text}Rize text...">
     <Components>
-      <Village id="castle_comp_trebizond_rize" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_trebizond" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="castle_comp_trebizond_rize" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_trebizond" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_v" />
@@ -18893,9 +18893,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_sinope" name="{=castle_sinope_name}Sinope Castle" owner="Faction.clan_latinempire_3" posX="952.869" posY="993.385" culture="Culture.latin" gate_posX="951.3959" gate_posY="990.7227">
+  <Settlement id="castle_sinope" name="{=castle_sinope_name}Sinope Castle" owner="Faction.clan_ilkhanate_5" posX="952.869" posY="993.385" culture="Culture.greek" gate_posX="951.3959" gate_posY="990.7227">
     <Components>
-      <Town id="castle_comp_sinope" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_latin" wait_mesh="wait_latin_town" gate_rotation="0.908" prosperity="500">
+      <Town id="castle_comp_sinope" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
           <Building id="building_castle_fortifications" level="2" />
           <Building id="building_castle_barracks" level="1" />
@@ -18917,9 +18917,9 @@
       <Location id="prison" scene_name="empire_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_sinope_amastris" name="{=castle_sinope_amastris_name}Amastris" posX="903.393" posY="979.678" culture="Culture.latin" text="{=castle_sinope_amastris_text}Amastris text...">
+  <Settlement id="castle_sinope_amastris" name="{=castle_sinope_amastris_name}Amastris" posX="903.393" posY="979.678" culture="Culture.greek" text="{=castle_sinope_amastris_text}Amastris text...">
     <Components>
-      <Village id="castle_comp_sinope_amastris" village_type="VillageType.silk_plant" hearth="400" bound="Settlement.castle_sinope" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="castle_comp_sinope_amastris" village_type="VillageType.silk_plant" hearth="400" bound="Settlement.castle_sinope" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -18930,9 +18930,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_amaseia" name="{=town_amaseia_name}Amaseia" owner="Faction.clan_latinempire_4" posX="971.542" posY="961.104" culture="Culture.latin" gate_posX="969.5346" gate_posY="959.8556" text="{=town_amaseia_text}Amaseia text...">
+  <Settlement id="town_amaseia" name="{=town_amaseia_name}Amasya" owner="Faction.clan_ilkhanate_5" posX="971.542" posY="961.104" culture="Culture.greek" gate_posX="969.5346" gate_posY="959.8556" text="{=town_amaseia_text}Amaseia text...">
     <Components>
-      <Town id="town_comp_amaseia" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_latin" wait_mesh="wait_latin_town" gate_rotation="0.208" prosperity="2500">
+      <Town id="town_comp_amaseia" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
           <Building id="building_settlement_fortifications" level="3" />
           <Building id="building_settlement_barracks" level="2" />
@@ -18966,9 +18966,9 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_amaseia_amisus" name="{=town_amaseia_amisus_name}Amisus" posX="985.685" posY="982.453" culture="Culture.latin" text="{=town_amaseia_amisus_text}Amisus text...">
+  <Settlement id="town_amaseia_amisus" name="{=town_amaseia_amisus_name}Amisus" posX="985.685" posY="982.453" culture="Culture.turkish" text="{=town_amaseia_amisus_text}Amisus text...">
     <Components>
-      <Village id="town_comp_amaseia_amisus" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_amaseia" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_amaseia_amisus" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_amaseia" background_crop_position="0.0" background_mesh="gui_bg_village_turkish" wait_mesh="wait_turkish_village" castle_background_mesh="gui_bg_castle_turkish" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -18979,9 +18979,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_amaseia_tokat" name="{=town_amaseia_tokat_name}Tokat" posX="983.494" posY="951.314" culture="Culture.latin" text="{=town_amaseia_tokat_text}Tokat text...">
+  <Settlement id="town_amaseia_tokat" name="{=town_amaseia_tokat_name}Tokat" posX="983.494" posY="951.314" culture="Culture.turkish" text="{=town_amaseia_tokat_text}Tokat text...">
     <Components>
-      <Village id="town_comp_amaseia_tokat" village_type="VillageType.flax_plant" hearth="400" bound="Settlement.town_amaseia" background_crop_position="0.0" background_mesh="gui_bg_village_latin" wait_mesh="wait_latin_village" castle_background_mesh="gui_bg_castle_latin" />
+      <Village id="town_comp_amaseia_tokat" village_type="VillageType.flax_plant" hearth="400" bound="Settlement.town_amaseia" background_crop_position="0.0" background_mesh="gui_bg_village_turkish" wait_mesh="wait_turkish_village" castle_background_mesh="gui_bg_castle_turkish" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_002" />
@@ -19231,7 +19231,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_akroinοn" name="{=castle_akroinοn_name}Akroinon Castle" owner="Faction.clan_rum_3" posX="874.437" posY="907.974" culture="Culture.turkish" gate_posX="876.1244" gate_posY="911.059">
+  <Settlement id="castle_akroinοn" name="{=castle_akroinοn_name}Karahisar Castle" owner="Faction.clan_rum_3" posX="874.437" posY="907.974" culture="Culture.turkish" gate_posX="876.1244" gate_posY="911.059">
     <Components>
       <Town id="castle_comp_akroinοn" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_turkish" wait_mesh="wait_turkish_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -19294,7 +19294,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_hevuk" name="{=castle_hevuk_name}Hevuk Castle" owner="Faction.clan_rum_3" posX="1004.623" posY="939.808" culture="Culture.turkish" gate_posX="1002.948" gate_posY="940.3715">
+  <Settlement id="castle_hevuk" name="{=castle_hevuk_name}Hevuk Castle" owner="Faction.clan_ilkhanate_5" posX="1004.623" posY="939.808" culture="Culture.turkish" gate_posX="1002.948" gate_posY="940.3715">
     <Components>
       <Town id="castle_comp_hevuk" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_turkish" wait_mesh="wait_turkish_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -19333,7 +19333,7 @@
   </Settlement>
   <!--endregion -->
   <!-- region Greek Principalities : Greek culture-->
-  <Settlement id="castle_athens" name="{=castle_athens_name}Athens Castle" owner="Faction.clan_nicaea_3" posX="736.155" posY="878.323" culture="Culture.greek" gate_posX="738.3989" gate_posY="876.5797">
+  <Settlement id="castle_athens" name="{=castle_athens_name}Athens Castle" owner="Faction.clan_latinempire_3" posX="736.155" posY="878.323" culture="Culture.greek" gate_posX="738.3989" gate_posY="876.5797">
     <Components>
       <Town id="castle_comp_athens" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -19370,7 +19370,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_corinth" name="{=town_corinth_name}Corinth" owner="Faction.clan_nicaea_3" posX="715.022" posY="867.399" culture="Culture.greek" gate_posX="717.4191" gate_posY="870.8487" text="{=town_corinth_text}Corinth text...">
+  <Settlement id="town_corinth" name="{=town_corinth_name}Corinth" owner="Faction.clan_latinempire_2" posX="715.022" posY="867.399" culture="Culture.greek" gate_posX="717.4191" gate_posY="870.8487" text="{=town_corinth_text}Corinth text...">
     <Components>
       <Town id="town_comp_corinth" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -19447,7 +19447,7 @@
   </Settlement>
   <Settlement id="town_nafpaktos" name="{=town_nafpaktos_name}Nafpaktos" owner="Faction.clan_nicaea_3" posX="693.578" posY="881.547" culture="Culture.greek" gate_posX="690.7689" gate_posY="880.8441" text="{=town_nafpaktos_text}Nafpaktos text...">
     <Components>
-      <Town id="town_comp_nafpaktos" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
+      <Town id="town_comp_nafpaktos" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="500">
         <Buildings>
           <Building id="building_settlement_fortifications" level="3" />
           <Building id="building_settlement_barracks" level="2" />
@@ -19496,7 +19496,7 @@
   </Settlement>
   <Settlement id="town_nafpaktos_nikopolis" name="{=town_nafpaktos_nikopolis_name}Nikopolis" posX="674.214" posY="893.182" culture="Culture.greek" text="{=town_nafpaktos_nikopolis_text}Nikopolis text...">
     <Components>
-      <Village id="town_comp_nafpaktos_nikopolis" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_nafpaktos" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
+      <Village id="town_comp_nafpaktos_nikopolis" village_type="VillageType.fisherman" hearth="100" bound="Settlement.town_nafpaktos" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_s" />
@@ -19507,7 +19507,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kyparissia" name="{=castle_kyparissia_name}Kyparissia Castle" owner="Faction.clan_nicaea_4" posX="701.863" posY="853.221" culture="Culture.greek" gate_posX="700.539" gate_posY="850.7068">
+  <Settlement id="castle_kyparissia" name="{=castle_kyparissia_name}Kyparissia Castle" owner="Faction.clan_latinempire_1" posX="701.863" posY="853.221" culture="Culture.greek" gate_posX="700.539" gate_posY="850.7068">
     <Components>
       <Town id="castle_comp_kyparissia" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -19557,9 +19557,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_larissa" name="{=castle_larissa_name}Larissa Castle" owner="Faction.clan_nicaea_4" posX="705.651" posY="907.988" culture="Culture.greek" gate_posX="708.2698" gate_posY="906.8854">
+  <Settlement id="castle_larissa" name="{=castle_larissa_name}Larissa Castle" owner="Faction.clan_nicaea_7" posX="705.651" posY="907.988" culture="Culture.greek" gate_posX="708.2698" gate_posY="906.8854">
     <Components>
-      <Town id="castle_comp_larissa" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
+      <Town id="castle_comp_larissa" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="100">
         <Buildings>
           <Building id="building_castle_fortifications" level="2" />
           <Building id="building_castle_barracks" level="1" />
@@ -19583,7 +19583,7 @@
   </Settlement>
   <Settlement id="castle_larissa_demetrias" name="{=castle_larissa_demetrias_name}Demetrias" posX="713.926" posY="903.168" culture="Culture.greek" text="{=castle_larissa_demetrias_text}Demetrias text...">
     <Components>
-      <Village id="castle_comp_larissa_demetrias" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_larissa" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
+      <Village id="castle_comp_larissa_demetrias" village_type="VillageType.europe_horse_ranch" hearth="100" bound="Settlement.castle_larissa" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_v" />
@@ -19596,7 +19596,7 @@
   </Settlement>
   <Settlement id="castle_ioannina" name="{=castle_ioannina_name}Ioannina Castle" owner="Faction.clan_nicaea_4" posX="671.248" posY="908.144" culture="Culture.greek" gate_posX="667.9803" gate_posY="908.7798">
     <Components>
-      <Town id="castle_comp_ioannina" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
+      <Town id="castle_comp_ioannina" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="100">
         <Buildings>
           <Building id="building_castle_fortifications" level="2" />
           <Building id="building_castle_barracks" level="1" />
@@ -19620,7 +19620,7 @@
   </Settlement>
   <Settlement id="castle_ioannina_grevena" name="{=castle_ioannina_grevena_name}Grevena" posX="682.727" posY="916.958" culture="Culture.greek" text="{=castle_ioannina_grevena_text}Grevena text...">
     <Components>
-      <Village id="castle_comp_ioannina_grevena" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_ioannina" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
+      <Village id="castle_comp_ioannina_grevena" village_type="VillageType.europe_horse_ranch" hearth="100" bound="Settlement.castle_ioannina" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_011" />
@@ -19633,7 +19633,7 @@
   </Settlement>
   <!-- endregion -->
   <!-- region Empire of Nicaea : Greek culture-->
-  <Settlement id="town_dyrrhacium" name="{=town_dyrrhacium_name}Dyrrhacium" owner="Faction.clan_nicaea_2" posX="645.083" posY="937.66" culture="Culture.greek" gate_posX="646.6112" gate_posY="935.7918" text="{=town_dyrrhacium_text}Dyrrhacium text...">
+  <Settlement id="town_dyrrhacium" name="{=town_dyrrhacium_name}Dyrrhacium" owner="Faction.clan_sicily_1" posX="645.083" posY="937.66" culture="Culture.greek" gate_posX="646.6112" gate_posY="935.7918" text="{=town_dyrrhacium_text}Dyrrhacium text...">
     <Components>
       <Town id="town_comp_dyrrhacium" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -19682,9 +19682,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_dyrrhacium_ochrid" name="{=town_dyrrhacium_ochrid_name}Ochrid" posX="670.84" posY="932.019" culture="Culture.greek" text="{=town_dyrrhacium_ochrid_text}Ochrid text...">
+  <Settlement id="town_dyrrhacium_ochrid" name="{=town_dyrrhacium_ochrid_name}Ohrid" posX="670.84" posY="932.019" culture="Culture.bulgaria" text="{=town_dyrrhacium_ochrid_text}Ochrid text...">
     <Components>
-      <Village id="town_comp_dyrrhacium_ochrid" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_dyrrhacium" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
+      <Village id="town_comp_dyrrhacium_ochrid" village_type="VillageType.sheep_farm" hearth="100" bound="Settlement.castle_ioannina" background_crop_position="0.0" background_mesh="gui_bg_village_bulgaria" wait_mesh="wait_bulgaria_village" castle_background_mesh="gui_bg_castle_bulgaria" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_x" />
@@ -19796,7 +19796,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_atikhisar" name="{=castle_atikhisar_name}Atikhisar Castle" owner="Faction.clan_nicaea_1" posX="793.463" posY="927.371" culture="Culture.greek" gate_posX="796.2706" gate_posY="926.3053">
+  <Settlement id="castle_atikhisar" name="{=castle_atikhisar_name}Atihisar Castle" owner="Faction.clan_nicaea_2" posX="793.463" posY="927.371" culture="Culture.greek" gate_posX="796.2706" gate_posY="926.3053">
     <Components>
       <Town id="castle_comp_atikhisar" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
