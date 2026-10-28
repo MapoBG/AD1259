@@ -12,7 +12,7 @@
 	         is_noble="true"
 	         banner_key="11.141.141.1536.1536.764.764.1.0.0.10092.143.116.600.700.764.764.1.0.0"/>
 	<!-- clan_epirus_2: House of Orsini -->
-	<!-- <Faction id="clan_epirus_2"
+	<Faction id="clan_epirus_2"
 	         initial_home_settlement="Settlement.castle_ioannina"
 	         name="{=nobleHouse_epirus_2}House of Orsini"
 	         tier="4"
@@ -20,6 +20,15 @@
 	         culture="Culture.italian"
 	         super_faction="Kingdom.epirus"
 	         is_noble="true"
-	         banner_key="11.159.159.1528.1528.764.764.1.0.0.10309.171.171.483.483.764.764.0.0.0"/> -->
-
+	         banner_key="11.159.159.1528.1528.764.764.1.0.0.10309.171.171.483.483.764.764.0.0.0"/>
+	<!-- clan_epirus_3: House of Muzaka -->
+	<Faction id="clan_epirus_3"
+	         initial_home_settlement="Settlement.castle_ioannina"
+	         name="{=nobleHouse_epirus_3}House of Muzaka"
+	         tier="4"
+	         owner="Hero.lord_epirus_3_1"
+	         culture="Culture.greek"
+	         super_faction="Kingdom.epirus"
+	         is_noble="true"
+	         banner_key="11.141.141.1536.1536.764.764.1.0.0.102910.143.116.600.700.764.764.1.0.0"/>
 </Factions>

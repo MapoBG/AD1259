@@ -49,8 +49,7 @@
 			<Trait id="CavalryFightingSkills" value="7" />
 			<Trait id="KnightFightingSkills" value="6" />
 			<Trait id="Commander" value="8" />
-			<Trait id="Politician" value="10" /> <!-- Master manipulator playing rivals against each
-			other -->
+			<Trait id="Politician" value="10" /> <!-- Master manipulator playing rivals against each other -->
 			<Trait id="Manager" value="6" />
 			<Trait id="Authoritarian" value="3" /> <!-- Autocratic ruler of Epirus -->
 			<Trait id="Calculating" value="2" />
@@ -157,6 +156,124 @@
 			<Trait id="Valor" value="2" />     <!-- Extremely aggressive on the battlefield -->
 			<Trait id="Honor" value="-1" />    <!-- Devious political opportunist like his father -->
 			<Trait id="Calculating" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="nicaea_lord_combat" />
+			<EquipmentSet id="nicaea_lord_noncombat" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+		<!-- clan_epirus_2: House of Orsini -->
+		 <NPCCharacter id="lord_epirus_2_1" name="{=epirus_lord_4}Theodore Orsini" age="48"
+		voice="ironic" default_group="Cavalry" is_hero="true" is_female="false"
+		culture="Culture.italian" skill_template="SkillSet.spc_merchant_skills" occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="48.50" weight="0.6500" build="0.5000"
+				key="000490054000310E2365314565A3423121B61A6352431B125195CAD44B211BA002A110220A43C2110000000000000000000000000000000000000000213420C0" />
+			<hair_tags>
+				<hair_tag name="empire" />
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandian_beard_f" />
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="7" />    <!-- Safely preserved the strategic island county during decades of instability -->
+			<Trait id="Politician" value="5" /> <!-- Navigated dangerous Angevin, Venetian, and Epirote overlapping suzerainties -->
+			<Trait id="Oligarchic" value="2" />  <!-- Firm defender of the Italian-Greek baronial class structures -->
+			<Trait id="Honor" value="2" />
+			<Trait id="Generosity" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="nicaea_lord_combat" />
+			<EquipmentSet id="nicaea_lord_noncombat" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_epirus_2_1_1" name="{=epirus_lord_5}Riccardo Orsini" age="17"
+		voice="confident" default_group="Cavalry" is_hero="true" is_female="false"
+		culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="17.30" weight="0.5500" build="0.6200"
+				key="000490054000310E2365314565A3423121B61A6352431B125195CAD44B211BA002A110220A43C2110000000000000000000000000000000000000000213420C0" />
+			<hair_tags>
+				<hair_tag name="empire" />
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandian_beard_b" />
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="7" /> <!-- Highly active in shifting alliances between Epirus, Achaea, and Naples -->
+			<Trait id="Calculated" value="2" />  <!-- Patiently engineered the marriage that secured his family Epirus -->
+			<Trait id="Oligarchic" value="2" />  <!-- Strong belief in dynastic rights and personal lordship -->
+			<Trait id="Honor" value="0" />       <!-- Known for bold, sometimes unscrupulous political betrayals -->
+			<Trait id="Generosity" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="nicaea_lord_combat" />
+			<EquipmentSet id="nicaea_lord_noncombat" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+		<!-- clan_epirus_3: House of Muzaka -->
+		 <NPCCharacter id="lord_epirus_3_1" name="{=epirus_lord_6}Lal Muzaka" age="29"
+		voice="grunt" default_group="Cavalry" is_hero="true" is_female="false"
+		culture="Culture.greek" skill_template="SkillSet.spc_knight_skills" occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="52.21" weight="0.7500" build="0.8000"
+				key="001A8C054000310E3486314565A3423121B61A6352431B125195CAD44B211BA002A110220A43C2110000000000000000000000000000000000000000213420C0" />
+			<hair_tags>
+				<hair_tag name="empire" />
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire" />
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="6" />    <!-- Subdued neighboring highland clans to secure central territories -->
+			<Trait id="Valor" value="2" />      <!-- Respected battle-hardened commander of the Albanian vanguard -->
+			<Trait id="Oligarchic" value="2" />  <!-- Fierce guardian of autonomous clan hierarchy against imperial decrees -->
+			<Trait id="Honor" value="2" />      <!-- Rigid tribal code of custom and unyielding word -->
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="nicaea_lord_combat" />
+			<EquipmentSet id="nicaea_lord_noncombat" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_epirus_3_1_1" name="{=epirus_lord_7}Andrea I Muzaka" age="1"
+		voice="softspoken" default_group="Cavalry" is_hero="true" is_female="false"
+		culture="Culture.greek" skill_template="SkillSet.spc_knight_skills" occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="1.45" weight="0.4500" build="0.6000"
+				key="001A8C054000310E3486314565A3423121B61A6352431B125195CAD44B211BA002A110220A43C2110000000000000000000000000000000000000000213420C0" />
+			<hair_tags>
+				<hair_tag name="empire" />
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire" />
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
