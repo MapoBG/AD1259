@@ -468,9 +468,9 @@
 			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_latin_2_1_1" name="{=latin_lady_4}Agnés Komneni Doúkaina" age="35" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+	<NPCCharacter id="lord_latin_2_1_1" name="{=latin_lady_4}Agnés Komneni Doúkaina" age="30" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.greek" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
 		<face>
-			<BodyProperties version="4" age="36.65" weight="0.0824" build="0.536" key="000DDC0F00A00005A485ACAA64AB46A67A94469D7B9B66481A683B289A8591710268102406884C9A000000000000000000000000000000000000000044C04080"/>
+			<BodyProperties version="4" age="30.65" weight="0.0824" build="0.536" key="000DDC0F00A00005A485ACAA64AB46A67A94469D7B9B66481A683B289A8591710268102406884C9A000000000000000000000000000000000000000044C04080"/>
 			<hair_tags>
 				<hair_tag name="empire"/>
 			</hair_tags>

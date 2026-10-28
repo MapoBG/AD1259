@@ -23,7 +23,7 @@
 	<Hero id="dead_lord_latin_11" alive="false" spouse="Hero.dead_lord_latin_12" father="Hero.dead_lord_latin_7" mother="Hero.dead_lord_latin_8" faction="Faction.clan_latinempire_2"/>
 	<Hero id="dead_lord_latin_12" alive="false" spouse="Hero.dead_lord_latin_11" father="Hero.dead_lord_latin_1" mother="Hero.dead_lord_latin_2" faction="Faction.clan_latinempire_2"/>
 	<Hero id="lord_latin_2_1" spouse="Hero.lord_latin_2_1_1" father="Hero.dead_lord_latin_7" mother="Hero.dead_lord_latin_8" faction="Faction.clan_latinempire_2"/>
-	<Hero id="lord_latin_2_1_1" spouse="Hero.lord_latin_2_1" faction="Faction.clan_latinempire_2"/>
+	<Hero id="lord_latin_2_1_1" spouse="Hero.lord_latin_2_1" father="Hero.lord_epirus_1_1" mother="Hero.lord_epirus_1_2" faction="Faction.clan_latinempire_2"/>
 	<!-- clan 3 -->
 	<Hero id="dead_lord_latin_13" alive="false" spouse="Hero.dead_lord_latin_14" faction="Faction.clan_latinempire_3"/>
 	<Hero id="dead_lord_latin_14" alive="false" spouse="Hero.dead_lord_latin_13" faction="Faction.clan_latinempire_3"/>

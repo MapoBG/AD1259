@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="epirus"
+	         initial_home_settlement="Settlement.town_nafpaktos"
+	         owner="Hero.lord_epirus_1_1"
+		 	 banner_key="11.141.141.1536.1536.764.764.1.0.0.10092.143.116.600.700.764.764.1.0.0"
+	         primary_banner_color="0xff8c1d1d"
+	         secondary_banner_color="0xffe3aa34"
+	         color="FF8C1D1D"
+	         color2="FFE3AA34"
+	         culture="Culture.greek"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=epirusFactionName}Dysis"
+	         short_name="{=epirusFactionShortName}Dysis"
+	         title="{=epirusFactionTitle}Dysis"
+	         ruler_title="{=epirusFactionRulerTitle}Kyr"
+	         text="{=epirusFactionText}The Epirote state was founded in 1205 by Michael Komnenos Doukas, a cousin of the Byzantine emperors Isaac II Angelos and Alexios III Angelos. It claimed to be the legitimate successor of the Byzantine Empire during the subsequent struggle for Constantinople, along with the Empire of Nicaea and the Empire of Trebizond.">
+		<relationships>
+           
+        </relationships>
+		<policies>
+			<policy id="policy_senate"/>
+			<policy id="policy_military_coronae"/>
+			<policy id="policy_citizenship"/>
+			<policy id="policy_magistrates"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>
+<!-- custom made banner_key="1.119.142.1460.1003.769.768.1.0.-1.101.143.116.595.694.1143.765.1.1.0.340.143.116.101.169.1069.448.1.1.0.340.143.116.101.169.1216.448.1.1.0"-->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+		<!-- Despotate of Epirus -->
+	<!-- clan_epirus_1: House of Komnenos Doukas -->
+	<Hero id="dead_lord_epirus_1" alive="false" faction="Faction.clan_epirus_1"/> <!-- Michael I Komnenos Doukas -->
+	<!-- Michael II and Theodora (Ruling Generation) -->
+	<Hero id="lord_epirus_1_1" spouse="Hero.lord_epirus_1_2" father="Hero.dead_lord_epirus_1" faction="Faction.clan_epirus_1"/>
+	<Hero id="lord_epirus_1_2" spouse="Hero.lord_epirus_1_1" faction="Faction.clan_epirus_1"/>
+	<!-- Children -->
+	<Hero id="lord_epirus_1_1_1" father="Hero.lord_epirus_1_1" mother="Hero.lord_epirus_1_2" faction="Faction.clan_epirus_1"/> <!-- Nikephoros I -->
+	<Hero id="lord_epirus_1_1_2" father="Hero.lord_epirus_1_1" faction="Faction.clan_epirus_1"/> <!-- John I -->
+
+</Heroes>

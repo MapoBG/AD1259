@@ -29,6 +29,36 @@
 			<EquipmentSet id="sic_kingmanfred_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="lord_sicily_1_1_wife" name="{=sicily_lady_wife1}Helena Angelina Doukaina" age="18"
+		voice="soft" default_group="Cavalry" is_hero="true" is_female="true"
+		culture="Culture.greek" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="17.45" weight="0.1800" build="0.2500"
+				key="001A8C054000100E2365314565A3423121B61A6352431B125195CAD44B211BA002A110220A43C2110000000000000000000000000000000000000000213420C0" />
+			<hair_tags>
+				<hair_tag name="empire" />
+			</hair_tags>
+			<beard_tags />
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="5" /> <!-- Vital dynastic piece cementing the Epirote-Sicilian anti-Nicaean pact -->
+			<Trait id="Oligarchic" value="2" />  <!-- High-born product of the Hohenstaufen and Komnenodoukai bloodlines -->
+			<Trait id="Mercy" value="2" />      <!-- Tragically sympathetic figure who suffered deep personal losses -->
+			<Trait id="Honor" value="2" />      <!-- Remained loyal to her family and dynasty through imprisonment -->
+			<Trait id="Generosity" value="2" />
+			<Trait id="Valor" value="2" />     <!-- Attempted a daring escape to protect her children after Benevento -->
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
 	<NPCCharacter id="lord_sicily_1_2" name="{=sicily_lord_6}Tommaso I di Saluzzo, Marquess of Saluzzo" age="37" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="37.14" weight="0.1744" build="0.3596" key="0005CC0D00B4234C97A9B71772799495A76A8775E67A3B664AA9C2CC9BA2469302653824066E687400001105000030A30000001F00000000000000004AD06080"/>

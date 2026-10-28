@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- Despotate of Epirus -->
+	<!-- clan_epirus_1: House of Komnenos Doukas -->
+	<NPCCharacter id="dead_lord_epirus_1" name="{=epirus_dead_lord_1}Michael I Komnenos Doukas"
+		age="45" voice="earnest" default_group="Cavalry" is_hero="true" is_female="false"
+		culture="Culture.greek" skill_template="SkillSet.spc_knight_skills" occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="45.00" weight="0.3200" build="0.6200"
+				key="0010CC0D8000200F24851146B6B5675168A7298652663A1483A4C9C77A611AA003A420240965CA420000000000000000000000000000000000000000214440C0" />
+			<hair_tags>
+				<hair_tag name="empire" />
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire" />
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<!-- <EquipmentSet id="nicaea_lord_combat" /> -->
+			<EquipmentSet id="nicaea_lord_noncombat" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Michael II Komnenos Doukas (Ruler) -->
+	<NPCCharacter id="lord_epirus_1_1" name="{=epirus_lord_1}Michael II Komnenos Doukas" age="53"
+		voice="softspoken" default_group="Cavalry" is_hero="true" is_female="false"
+		culture="Culture.greek" skill_template="SkillSet.spc_knight_skills" occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="53.21" weight="0.4550" build="0.6850"
+				key="0010DC0D8000300F35962157C7B6786179B83A9763774B2594A5CAD88B711BBA03A420350A76CA530000000000000000000000000000000000000000355850C0" />
+			<hair_tags>
+				<hair_tag name="empire" />
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire" />
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7" />
+			<Trait id="KnightFightingSkills" value="6" />
+			<Trait id="Commander" value="8" />
+			<Trait id="Politician" value="10" /> <!-- Master manipulator playing rivals against each
+			other -->
+			<Trait id="Manager" value="6" />
+			<Trait id="Authoritarian" value="3" /> <!-- Autocratic ruler of Epirus -->
+			<Trait id="Calculating" value="2" />
+			<Trait id="Honor" value="-1" />     <!-- Pragmatic treaty-breaker -->
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="nicaea_lord_combat" />
+			<EquipmentSet id="nicaea_lord_noncombat" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Theodora of Arta (Wife / St. Theodora) -->
+	<NPCCharacter id="lord_epirus_1_2" name="{=epirus_lady_1}Theodora Petraliphaina" age="46"
+		voice="earnest" default_group="Cavalry" is_hero="true" is_female="true"
+		culture="Culture.greek" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="46.12" weight="0.2100" build="0.3000"
+				key="000A8C054000100E2365314565A3423121B61A6352431B125195CAD44B211BA002A110220A43C2110000000000000000000000000000000000000000213420C0" />
+			<hair_tags>
+				<hair_tag name="empire" />
+			</hair_tags>
+			<beard_tags />
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="8" />    <!-- Highly skilled regional administrator and governor -->
+			<Trait id="Politician" value="6" /> <!-- Handled diplomacy independently during her exile -->
+			<Trait id="Surgery" value="4" />    <!-- Renowned for founding monasteries, shrines, and
+			poor-houses -->
+			<Trait id="Oligarchic" value="2" />  <!-- Traditional dynastic nobility mindset -->
+			<Trait id="Mercy" value="2" />      <!-- Exceptionally pious and saintly -->
+			<Trait id="Honor" value="2" />
+			<Trait id="Generosity" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="nicaea_lord_combat" />
+			<EquipmentSet id="nicaea_noble_lady" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Nikephoros I Komnenos Doukas (Eldest Son / Heir) -->
+	<NPCCharacter id="lord_epirus_1_1_1" name="{=epirus_lord_2}Nikephoros I Komnenos Doukas"
+		age="26" voice="bold" default_group="Cavalry" is_hero="true" is_female="false"
+		culture="Culture.greek" skill_template="SkillSet.spc_knight_skills" occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="26.45" weight="0.3100" build="0.7200"
+				key="0010DC0D8000300F35962157C7B6786179B83A9763774B2594A5CAD88B711BBA03A420350A76CA530000000000000000000000000000000000000000122440C0" />
+			<hair_tags>
+				<hair_tag name="empire" />
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire" />
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="6" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Mercy" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="nicaea_lord_combat" />
+			<EquipmentSet id="nicaea_lord_noncombat" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- John I Doukas (Son / Ruler of Thessaly) -->
+	<NPCCharacter id="lord_epirus_1_1_2" name="{=epirus_lord_3}John I Doukas" age="22" voice="curt"
+		default_group="Cavalry" is_hero="true" is_female="false" culture="Culture.greek"
+		skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.10" weight="0.2500" build="0.6500"
+				key="0010DC0D8000300F35962157C7B6786179B83A9763774B2594A5CAD88B711BBA03A420350A76CA530000000000000000000000000000000000000000051430C0" />
+			<hair_tags>
+				<hair_tag name="empire" />
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire" />
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7" />
+			<Trait id="CavalryFightingSkills" value="6" />
+			<Trait id="Commander" value="8" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Authoritarian" value="1" />
+			<Trait id="Valor" value="2" />     <!-- Extremely aggressive on the battlefield -->
+			<Trait id="Honor" value="-1" />    <!-- Devious political opportunist like his father -->
+			<Trait id="Calculating" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="nicaea_lord_combat" />
+			<EquipmentSet id="nicaea_lord_noncombat" equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

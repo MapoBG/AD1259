@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Heroes>
 	<!-- sicily clan 1 -->
-	<Hero id="lord_sicily_1_1" faction="Faction.clan_sicily_1" text="{=uX0dbuLa}In 1257, however, Manfredi crushed the papal army and settled all the rebellions, imposing his firm rule of southern Italy and receiving the title of vicar from Conradin. On 10 August 1258, taking advantage of Conradin's rumoured death, Manfred was crowned King of Sicily at Palermo."/>
+	<Hero id="lord_sicily_1_1" spouse="Hero.lord_sicily_1_1_wife" faction="Faction.clan_sicily_1" text="{=uX0dbuLa}In 1257, however, Manfredi crushed the papal army and settled all the rebellions, imposing his firm rule of southern Italy and receiving the title of vicar from Conradin. On 10 August 1258, taking advantage of Conradin's rumoured death, Manfred was crowned King of Sicily at Palermo."/>
+	<Hero id="lord_sicily_1_1_wife" spouse="Hero.lord_sicily_1_1" father="Hero.lord_epirus_1_1" mother="Hero.lord_epirus_1_2" faction="Faction.clan_sicily_1"/>
 	<Hero id="lord_sicily_1_2" spouse="Hero.lord_sicily_1_3" faction="Faction.clan_sicily_1"/>
 	<Hero id="lord_sicily_1_3" spouse="Hero.lord_sicily_1_2" faction="Faction.clan_sicily_1"/>
 	<Hero id="lord_sicily_1_4" father="Hero.lord_sicily_1_2" mother="Hero.lord_sicily_1_3" faction="Faction.clan_sicily_1"/>
